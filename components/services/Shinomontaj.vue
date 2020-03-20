@@ -596,6 +596,35 @@
 <script>
 export default {
   name: "shinomontaj",
+  head: {
+    script: [
+      {
+        hid: "script",
+        type: "application/ld+json",
+        innerHTML: `{
+"@context": "https://schema.org",
+"@type": "Product",
+"url": "https://auto-truckcom.ru/services/shinomontaj",
+"category": "Шиномонтаж",
+"image": "https://auto-truckcom.ru/img/shinomontaj.jpg",
+"productID": "shinomontaj",
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.5",
+"reviewCount": "2"
+},"description": "Шиномонташ легкового и коммерческого транспорта. Балансировка, ремонт, замена, установка",				  
+"name": "Шиномонташ",
+"offers": {
+"@type": "Offer",
+"availability": "https://schema.org/InStock",
+"price": "от 100.00",
+"priceCurrency": "RUB"
+},
+
+        }`
+      }
+    ]
+  },
   data() {
     return {
       errors: []

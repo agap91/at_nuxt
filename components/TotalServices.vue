@@ -99,5 +99,21 @@ export default {
   text-decoration: none;
 }
 @media screen and (max-width: 576px) {
+  .services-lists {
+    flex-direction: column;
+  }
+  .service {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .service p {
+    font-size: 20px;
+  }
+  .table table {
+    width: auto;
+  }
+  .table {
+    overflow-x: auto;
+  }
 }
 </style>

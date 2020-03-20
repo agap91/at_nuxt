@@ -1,9 +1,9 @@
 <template>
   <transition name="fade">
-    <section id="popup" class="wrap" v-show="this.$store.getters.POPUP">
+    <section id="popup" class="wrap" @click.self="$store.commit('popup')" v-show="$store.state.showPopup">
       <div class="popup-content">
         <svg
-          @click="popupOpen()"
+          @click="$store.commit('popup')"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -21,12 +21,8 @@
         <form method="POST" @submit.prevent="send">
           <p>Оставьте заявку и мы перезвоним вам</p>
           <input type="text" placeholder="Ваше имя" v-model="form.name" />
-          <masked-input
-            type="text"
-            mask="\+\7 (111) 1111-11"
-            placeholder="Ваш номер телефона"
-            v-model="form.phone"
-          />
+          
+          <input type="text" placeholder="Ваш номер телефона" v-model="form.phone" v-mask="'+7 (###) ###-##-##'"/>
           <p v-if="errors.length" class="error">
               <span>Пожалуйста исправьте указанные ошибки:</span>
                 <ul>
@@ -70,6 +66,38 @@ export default {
       }
       if (!this.form.phone) {
         this.errors.push("Укажите телефон.");
+      }
+      if (this.errors.length==0) {
+        if (this.form.phone[4] != 9) {
+            // alert("Проверьте правильность Вашего номера!");
+            this.errors.push("Проверьте правильность Вашего номера!");
+        } else if (this.errors.length == 0) {
+            this.axios({
+            method: "post",
+            url: "/order.php",
+            data: {name: this.form.name, phone:this.form.phone},
+          // headers:{
+          //   'Content-Type': "application/json; charset=UTF-8"
+          // }
+            })
+            .then(response => {
+                alert('Ваша заявка отправлена!');
+                // response.data
+                // let orders = response.data;
+            
+                // });
+                // location.href="/crm"
+            })
+            .catch(error => {
+                // let errorMessage = error.response
+                //   ? error.response.data
+                //   : error.message;
+                // this.$nextTick(function() {
+                //   this.errorMessage = errorMessage;
+                //   this.errorShow = true;
+                // });
+            });
+        }
       }
     }
   }

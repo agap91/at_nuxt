@@ -8,19 +8,27 @@
         <br />Информация на сайте носит информационный характер и не является публичной офертой, определяемой ст.473(2)ГК РФ
       </p>
     </footer>
+    <popup />
   </div>
 </template>
 <script>
 // import Popup from "../components/popup";
 import Topblock from "~/components/Topblock.vue";
 import AppLogo from "~/components/AppLogo.vue";
+import Popup from "~/components/Popup.vue";
 export default {
   components: {
-    topblock: Topblock
+    topblock: Topblock,
+    popup: Popup
   },
   head() {
     return {
-      link: [{ rel: "canonical", href: 'https://auto-truckcom.ru'+this.$route.fullPath }]
+      link: [
+        {
+          rel: "canonical",
+          href: "https://auto-truckcom.ru" + this.$route.fullPath
+        }
+      ]
     };
   }
 };
@@ -56,6 +64,7 @@ body {
   transition: all 0.3s;
   background: url("/img/bg.jpg");
 }
+
 .table table {
   width: 100%;
   table-layout: fixed;

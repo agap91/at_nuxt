@@ -12,7 +12,7 @@
           <a
             href="tel:+79299106860"
             title="телефон для связи с автосервисом Auto Truckom"
-          >8 (929) 910-68-60</a>
+          ><span itemprop="telephone">8 (929) 910-68-60</span></a>
           <button class="call-btn">Заказать звонок</button>
         </li>
         <li>Почта:</li>
@@ -20,10 +20,10 @@
           <a
             href="mailto:info@auto-truckcom.ru"
             title="почта для связи с автосервисом Auto Truckom"
-          >info@auto-truckcom.ru</a>
+          ><span itemprop="email">info@auto-truckcom.ru</span></a>
         </li>
         <li>Наш адрес:</li>
-        <li>МО, г.Королев, ул. Орджоникидзе, 1</li>
+        <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">МО, <span itemprop="addressLocality">г.Королев</span>, <span itemprop="streetAddress">ул. Орджоникидзе, 3В</span></li>
       </ul>
     </div>
     <div id="my-map"></div>
@@ -31,6 +31,7 @@
 </template>
 <script>
 export default {
+  name: 'contacts',
   data() {
     return {
     };

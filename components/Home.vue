@@ -1,7 +1,7 @@
 <template>
   <section id="home">
     <div class="container">
-      <h1>Ремонт, запчасти и техническое обслуживание легковых и грузовых автомобилей</h1>
+      <h1>{{h1 || 'Ремонт, запчасти и техническое обслуживание легковых и грузовых автомобилей'}}</h1>
       <div class="order-block">
         <div class="attention">
           <h3 class="bold">Внимание</h3>
@@ -32,13 +32,14 @@
                 name="fio"
                 placeholder="Ваше имя"
                 :class="errors.name ? 'error' : ''"
+                v-model="form.name"
               />
-              <masked-input
+              <input
                 type="text"
-                mask="\+\7 (111) 1111-11"
-                placeholder="Ваш номер телефона"
+                placeholder="+7 (___) ___-__-__"
                 v-model="form.phone"
                 :class="errors.phone ? 'error' : ''"
+                v-mask="'+7 (###) ###-##-##'"
               />
               <button type="submit">Заказать звонок</button>
             </div>
@@ -53,6 +54,7 @@
 </template>
 <script>
 export default {
+  props: ["h1"],
   data() {
     return {
       errors: {
@@ -81,13 +83,16 @@ export default {
         this.axios({
           method: "post",
           url: "/order.php",
-          data: {name: this.errors.name, phone:this.errors.phone}
+          data: { name: this.form.name, phone: this.form.phone },
+          // headers:{
+          //   'Content-Type': "application/json; charset=UTF-8"
+          // }
         })
           .then(response => {
-            alert('Ваша заявка отправлена!');
+            alert("Ваша заявка отправлена!");
             // response.data
             // let orders = response.data;
-           
+
             // });
             // location.href="/crm"
           })
@@ -142,6 +147,12 @@ export default {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+  }
+  .order-block .form {
+    padding: 40px 10px;
+  }
+  .order-block .attention {
+    padding: 20px 10px;
   }
 }
 </style>

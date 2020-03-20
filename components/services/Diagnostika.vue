@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h2 class="caption" id="prejskurant-tsen">Прейскурант цен на диагностику коммерческих и легковых автомобилей</h2>
+    <h2
+      class="caption"
+      id="prejskurant-tsen"
+    >Прейскурант цен на диагностику коммерческих и легковых автомобилей</h2>
     <div class="content">
       <p>
         Точная диагностика — это
@@ -48,6 +51,35 @@
 </template>
 <script>
 export default {
+  head: {
+    script: [
+      {
+        hid: "script",
+        type: "application/ld+json",
+        innerHTML: `{
+"@context": "https://schema.org",
+"@type": "Product",
+"url": "https://auto-truckcom.ru/services/diagnostika",
+"category": "Диагностика",
+"image": "https://auto-truckcom.ru/img/diagnostika.jpg",
+"productID": "diagnostika",
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.5",
+"reviewCount": "2"
+},"description": "Диагностика коммерческих и легковых автомобилей. Компьютерная диагностика, диагностика полуприцепа, диагностика ходовой, диагностика электросистем, диагностика пневмосистем, диагностика тормозной системы, диагностика двигателя, диагностика КПП",				  
+"name": "Диагностика коммерческих и легковых автомобилей",
+"offers": {
+"@type": "Offer",
+"availability": "https://schema.org/InStock",
+"price": "от 100.00",
+"priceCurrency": "RUB"
+},
+
+        }`
+      }
+    ]
+  },
   name: "diagnostika"
 };
 </script>

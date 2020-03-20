@@ -23,6 +23,7 @@
 </template>
 <script>
 export default {
+  name: 'work',
   data() {
     return {
       work: [

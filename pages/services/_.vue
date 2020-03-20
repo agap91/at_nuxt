@@ -27,7 +27,7 @@
               <line x1="5" y1="12" x2="19" y2="12" />
               <polyline points="12 5 19 12 12 19" />
             </svg>
-            <form>
+            <form @submit.prevent="send()">
               <h3>Оставьте заявку</h3>
               <span>и мы перезвоним Вам!</span>
               <div class="form-items">
@@ -36,13 +36,14 @@
                   name="fio"
                   placeholder="Ваше имя"
                   :class="errors.name ? 'error' : ''"
+                  v-model="form.name"
                 />
-                <masked-input
+                <input
                   type="text"
-                  mask="\+\7 (111) 1111-11"
-                  placeholder="Ваш номер телефона"
+                  placeholder="+7 (___) ___-__-__"
                   v-model="form.phone"
                   :class="errors.phone ? 'error' : ''"
+                  v-mask="'+7 (###) ###-##-##'"
                 />
                 <button type="submit">Заказать звонок</button>
               </div>
@@ -267,15 +268,58 @@ export default {
         remont_polupritsepov: "Прайс-лист на ремонт полуприцепов",
         diagnostika: "Диагностика грузовых и легковых автомобилей"
       },
+      errors: {
+        name: false,
+        phone: false
+      },
       form: {
         name: "",
         phone: ""
       },
-      errors: [],
       menu: []
     };
   },
-  methods: {}
+  methods: {
+    send() {
+      this.errors = [];
+
+      if (!this.form.name) {
+        this.errors.name = true;
+      }
+      if (!this.form.phone) {
+        this.errors.phone = true;
+      }
+      if (this.form.phone[4] != 9) {
+        alert("Проверьте правильность Вашего номера!");
+      } else if (this.errors.length == 0) {
+        this.axios({
+          method: "post",
+          url: "/order.php",
+          data: { name: this.form.name, phone: this.form.phone },
+          // headers:{
+          //   'Content-Type': "application/json; charset=UTF-8"
+          // }
+        })
+          .then(response => {
+            alert("Ваша заявка отправлена!");
+            // response.data
+            // let orders = response.data;
+
+            // });
+            // location.href="/crm"
+          })
+          .catch(error => {
+            // let errorMessage = error.response
+            //   ? error.response.data
+            //   : error.message;
+            // this.$nextTick(function() {
+            //   this.errorMessage = errorMessage;
+            //   this.errorShow = true;
+            // });
+          });
+      }
+    }
+  }
 };
 </script>
 <style scoped>
@@ -412,6 +456,10 @@ form button:hover {
   margin-right: 15px;
 }
 @media screen and (max-width: 576px) {
+  .main-block h1 {
+    font-size: 43px;
+    margin: 65px 0;
+  }
   .order-block {
     display: flex;
     position: relative;
@@ -520,6 +568,12 @@ form button:hover {
   }
   .hide-information .submenu {
     top: 56px;
+  }
+  .order-block .form {
+    padding: 40px 10px;
+  }
+  .order-block .attention {
+    padding: 20px 10px;
   }
 }
 </style>

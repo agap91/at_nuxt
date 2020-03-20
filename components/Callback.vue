@@ -31,14 +31,9 @@
                 name="fio"
                 placeholder="Ваше имя"
                 :class="errors.name ? 'error' : ''"
+                v-model="form.name"
               />
-              <masked-input
-                type="text"
-                mask="\+\7 (111) 1111-11"
-                placeholder="Ваш номер телефона"
-                v-model="form.phone"
-                :class="errors.phone ? 'error' : ''"
-              />
+              <input type="text" placeholder="+7 (___) ___-__-__" v-model="form.phone" :class="errors.phone ? 'error' : ''" v-mask="'+7 (###) ###-##-##'"/>
               <button type="submit">Заказать звонок</button>
             </div>
           </form>
@@ -48,11 +43,8 @@
   </section>
 </template>
 <script>
-// import MaskedInput from "vue-masked-input";
 export default {
-  // components: {
-  //   MaskedInput
-  // },
+  name: 'callback',
   data() {
     return {
       errors: {
@@ -81,7 +73,10 @@ export default {
         this.axios({
           method: "post",
           url: "/order.php",
-          data: { name: this.errors.name, phone: this.errors.phone }
+          data: { name: this.form.name, phone: this.form.phone },
+          // headers:{
+          //   'Content-Type': "application/json; charset=UTF-8"
+          // }
         })
           .then(response => {
             alert("Ваша заявка отправлена!");
