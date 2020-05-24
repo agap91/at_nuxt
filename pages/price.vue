@@ -1,6 +1,6 @@
 <template>
   <section>
-    <home h1="Ценны на работы автосервиса"/>  
+    <home h1="Цены на работы автосервиса"/>  
     <work />
   </section>
 </template>
