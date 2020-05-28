@@ -1,7 +1,7 @@
 <template>
   <section id="home">
     <div class="container">
-      <h1>{{h1 || 'Ремонт, запчасти и техническое обслуживание легковых и грузовых автомобилей'}}</h1>
+      <h1>{{h1}}</h1>
       <div class="order-block">
         <div class="attention">
           <h3 class="bold">Внимание</h3>
@@ -54,7 +54,13 @@
 </template>
 <script>
 export default {
-  props: ["h1"],
+  props: {
+    h1: {
+      type: String,
+      default:
+        "Ремонт, запчасти и техническое обслуживание легковых и грузовых автомобилей"
+    }
+  },
   data() {
     return {
       errors: {
@@ -83,7 +89,7 @@ export default {
         this.axios({
           method: "post",
           url: "/order.php",
-          data: { name: this.form.name, phone: this.form.phone },
+          data: { name: this.form.name, phone: this.form.phone }
           // headers:{
           //   'Content-Type': "application/json; charset=UTF-8"
           // }

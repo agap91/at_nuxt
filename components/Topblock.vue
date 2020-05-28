@@ -53,11 +53,12 @@
           <ul v-show="!mobyle || openMenu">
             <li v-for="m of menu" :key="m">
               <template v-if="mainPage()">
-                <a v-if="m.type=='scroll'" :href="m.url" v-scroll-to="m.url">{{m.name}}</a>
-                <a v-else :href="m.url">{{m.name}}</a>
+                <nuxt-link v-if="m.type=='scroll'" :to="m.url" v-scroll-to="m.url">{{m.name}}</nuxt-link>
+                <nuxt-link v-else :to="m.url">{{m.name}}</nuxt-link>
               </template>
               <template v-else>
-                <a :href="'/'+m.url">{{m.name}}</a>
+                <nuxt-link v-if="m.type=='scroll'" :to="'/'+m.url" v-scroll-to="m.url">{{m.name}}</nuxt-link>
+                <nuxt-link v-else :to="m.url">{{m.name}}</nuxt-link>
               </template>
             </li>
           </ul>
@@ -84,6 +85,7 @@ export default {
         { name: "Главная", url: "#home", type: "scroll" },
         { name: "Услуги", url: "#work", type: "scroll" },
         { name: "Цены", url: "/price", type: "no-scroll" },
+        { name: "Грузоперевозки", url: "/gruzoperevozki", type: "no-scroll" },
         { name: "Комментарии", url: "#comments", type: "scroll" },
         { name: "Контакты", url: "#contacts", type: "scroll" }
       ],
@@ -305,7 +307,7 @@ footer p {
   margin: auto;
   width: 55%;
 }
-.menu nav{
+.menu nav {
   flex: 1;
 }
 @media screen and (max-width: 576px) {

@@ -17,6 +17,7 @@ module.exports = {
   modules: [
     [
       '@nuxtjs/yandex-metrika',
+      'nuxt-lazy-load',
       {
         id: '61148428',
         webvisor: true
