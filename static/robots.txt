@@ -1,0 +1,12 @@
+User-agent: Yandex
+Allow: *
+Host: https://auto-truckcom.ru
+
+User-agent: Googlebot
+Allow: *
+
+User-agent: *
+Allow: *
+
+
+Sitemap: https://auto-truckcom.ru/sitemap.xml
