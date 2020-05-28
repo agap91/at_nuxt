@@ -1,4 +1,10 @@
 module.exports = {
+  server: { 
+    port: 6000, // default: 3000
+    // host: '' // default: localhost,
+    useOutputCacheTagging: true,
+    useOutputCache: true
+  },
   plugins: [
     { src: '~plugins/maskedInput', mode: 'client' },
     { src: '~plugins/mobileDetect', mode: 'client' },
