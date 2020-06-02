@@ -200,7 +200,7 @@ export default {
       } else if (this.errors.length == 0) {
         this.axios({
           method: "post",
-          url: "/order.php",
+          url: "https://auto-truckcom.ru/api/order",
           data: { name: this.form.name, phone: this.form.phone }
           // headers:{
           //   'Content-Type': "application/json; charset=UTF-8"
