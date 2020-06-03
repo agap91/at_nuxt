@@ -80,6 +80,10 @@ export default {
         {
           name: "og:description",
           content: "Контакты автосервиса Auto Truckcom в Королеве"
+        },
+        {
+          name: "og:url",
+          content: "https://auto-truckcom.ru/contacts"
         }
       ]
     };

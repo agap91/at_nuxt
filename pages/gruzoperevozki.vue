@@ -192,7 +192,11 @@ export default {
           name: "og:description",
           content:
             "Грузоперевозки от Auto Truckcom в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
-        }
+        },
+        {
+          name: "og:url",
+          content: "https://auto-truckcom.ru/gruzoperevozki"
+        },
       ]
     };
     return metaInfo;

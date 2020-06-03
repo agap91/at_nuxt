@@ -42,6 +42,10 @@ export default {
             "Автосервис Auto Truckcom - ремонт легкового и коммерческого транспорта"
         },
         {
+          name: "og:url",
+          content: "https://auto-truckcom.ru/"
+        },
+        {
           name: "og:description",
           content:
             "Автосервис в Королеве. Ремонт коммерческих и легковых автомобилей. Шиномонтаж всех видов автомашин."

@@ -115,8 +115,6 @@ export default {
   },
   head() {
     var metaInfo = {};
-    console.log(1111111111)
-    console.log(this.$route.params.pathMatch)
     switch (this.$route.params.pathMatch) {
       case "diagnostika":
         this.imgFon = "/img/diagnostika-auto.jpg";
@@ -146,6 +144,12 @@ export default {
               name: "og:description",
               content:
                 "Диагностика коммерческих и легковых автомобилей в Королеве"
+            },
+            {
+              name: "og:url",
+              content:
+                "https://auto-truckcom.ru/services/" +
+                this.$route.params.pathMatch
             }
           ]
         };
@@ -176,6 +180,12 @@ export default {
               vmid: "og:description",
               name: "og:description",
               content: "Ремонт полуприцепов в Королеве"
+            },
+            {
+              name: "og:url",
+              content:
+                "https://auto-truckcom.ru/services/" +
+                this.$route.params.pathMatch
             }
           ]
         };
@@ -206,6 +216,12 @@ export default {
               vmid: "og:description",
               name: "og:description",
               content: "Ремонт тягачей в Королеве"
+            },
+            {
+              name: "og:url",
+              content:
+                "https://auto-truckcom.ru/services/" +
+                this.$route.params.pathMatch
             }
           ]
         };
@@ -239,6 +255,12 @@ export default {
               name: "og:description",
               content:
                 "Шиномонтаж в Королеве. Шиномонтаж коммерческих и леговых автомобилей"
+            },
+            {
+              name: "og:url",
+              content:
+                "https://auto-truckcom.ru/services/" +
+                this.$route.params.pathMatch
             }
           ]
         };
@@ -268,11 +290,17 @@ export default {
             name: "Прайс-лист на услуги шиномонтажа для грузовых автомобилей",
             link:
               "#prajs-list-na-uslugi-shinomontazha-dlya-gruzovyh-avtomobilej"
+          },
+          {
+            name: "og:url",
+            content:
+              "https://auto-truckcom.ru/services/" +
+              this.$route.params.pathMatch
           }
         ];
         break;
     }
-    this.breadcrumbs.push({ name: metaInfo.title, slug: null })
+    this.breadcrumbs.push({ name: metaInfo.title, slug: null });
     return metaInfo;
   },
   mounted() {
