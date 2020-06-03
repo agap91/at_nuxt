@@ -1,6 +1,6 @@
 module.exports = {
   server: {
-    port: 6001, // default: 3000
+    port: 6000, // default: 3000
     // host: '' // default: localhost,
     useOutputCacheTagging: true,
     useOutputCache: true
