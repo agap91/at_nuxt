@@ -322,6 +322,32 @@ input.error {
   border-color: red;
   box-shadow: 0 0 5px red;
 }
+.breadcrumbs {
+  background: #fff;
+  padding: 5px 15px;
+  margin-bottom: 50px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+.breadcrumbs ol a {
+  color: #00aaf8;
+}
+.breadcrumbs ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 17px;
+  width: 100%;
+}
+.breadcrumbs ol li:not(:last-child)::after {
+  content: "/";
+  display: inline-block;
+  padding: 0 5px;
+}
 @media screen and (max-width: 576px) {
   body {
     padding-top: 155px;

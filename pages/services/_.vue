@@ -57,6 +57,34 @@
     </section>
     <section id="page">
       <div class="container">
+        <div class="breadcrumbs">
+          <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li
+              v-for="(item, ind) of breadcrumbs"
+              :key="ind"
+              itemprop="itemListElement"
+              itemscope
+              itemtype="http://schema.org/ListItem"
+            >
+              <template v-if="item.slug!=null">
+                <nuxt-link
+                  :to="item.slug"
+                  itemscope
+                  itemtype="http://schema.org/Thing"
+                  itemprop="item"
+                  :title="item.name"
+                >
+                  <span itemprop="name" :itemid="item.slug">{{item.name}}</span>
+                </nuxt-link>
+                <meta itemprop="position" :content="++ind" />
+              </template>
+              <template v-else>
+                <span itemprop="name">{{item.name}}</span>
+                <meta itemprop="position" :content="++ind" />
+              </template>
+            </li>
+          </ol>
+        </div>
         <component v-bind:is="this.$route.params.pathMatch"></component>
         <!-- <shinomontaj v-if="this.$route.params.pathMatch == 'shinomontaj'"/>
         <remonttyagachej v-else-if="this.$route.params.pathMatch == 'remont_tyagachej'"/>-->
@@ -87,6 +115,8 @@ export default {
   },
   head() {
     var metaInfo = {};
+    console.log(1111111111)
+    console.log(this.$route.params.pathMatch)
     switch (this.$route.params.pathMatch) {
       case "diagnostika":
         this.imgFon = "/img/diagnostika-auto.jpg";
@@ -242,19 +272,21 @@ export default {
         ];
         break;
     }
+    this.breadcrumbs.push({ name: metaInfo.title, slug: null })
     return metaInfo;
   },
   mounted() {
     // console.log(this.serviceName);
   },
-  // asyncData ({ params }, callback) {
-  //     let post = posts.find(post => post.id === parseInt(params.id))
-  //     if (post) {
-  //       callback(null, { post })
-  //     } else {
-  //       callback({ statusCode: 404, message: 'Post not found' })
-  //     }
-  //   },
+  asyncData() {
+    let breadcrumbs = [
+      { name: "Главная", slug: "/" },
+      { name: "Услуги", slug: "/#work" }
+    ];
+    return {
+      breadcrumbs
+    };
+  },
   data() {
     return {
       imgFon: "",
@@ -295,7 +327,7 @@ export default {
         this.axios({
           method: "post",
           url: "https://auto-truckcom.ru/api/order",
-          data: { name: this.form.name, phone: this.form.phone },
+          data: { name: this.form.name, phone: this.form.phone }
           // headers:{
           //   'Content-Type': "application/json; charset=UTF-8"
           // }

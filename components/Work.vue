@@ -8,14 +8,14 @@
           class="work"
           v-for="w of work"
           :key="w"
-          :title="'Услуга от Auto Trackcom - '+w.title"
+          :title="'Услуга от Auto Truckcom - '+w.title"
           v-lazy-container="{ selector: 'img' }"
           :to="`/services/${w.pageName}`"
         >
         <!-- {name: 'service-id', params: {id: w.pageName}} -->
         <!-- :to="`/service/${w.pageName}`" -->
           <p>{{w.title}}</p>
-          <img :data-src="w.img" :alt="'Услуга от Auto Trackcom - '+w.title" />
+          <img :data-src="w.img" :alt="'Услуга от Auto Truckcom - '+w.title" />
         </nuxt-link>
       </div>
     </div>

@@ -87,7 +87,7 @@ export default {
         { name: "Цены", url: "/price", type: "no-scroll" },
         { name: "Грузоперевозки", url: "/gruzoperevozki", type: "no-scroll" },
         { name: "Комментарии", url: "#comments", type: "scroll" },
-        { name: "Контакты", url: "#contacts", type: "scroll" }
+        { name: "Контакты", url: "contacts", type: "no-scroll" }
       ],
       errors: [],
       openMenu: false

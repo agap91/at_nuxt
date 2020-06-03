@@ -1,6 +1,6 @@
 module.exports = {
-  server: { 
-    port: 6000, // default: 3000
+  server: {
+    port: 6001, // default: 3000
     // host: '' // default: localhost,
     useOutputCacheTagging: true,
     useOutputCache: true
@@ -12,7 +12,8 @@ module.exports = {
     { src: '~plugins/scrollto', mode: 'client' },
     { src: '~plugins/services', mode: 'client' },
     { src: '~plugins/yandexMap', mode: 'client' },
-    { src: '~plugins/axios', mode: 'client' }
+    { src: '~plugins/axios', mode: 'client' },
+    '~plugins/jsonld'
   ],
   modules: [
     [
@@ -33,12 +34,14 @@ module.exports = {
    */
   head: {
     title:
-      'Автосервис Auto-Trackcom - ремонт легкового и коммерческого транспорта',
+      'Автосервис Auto-Truckcom - ремонт легкового и коммерческого транспорта в Королеве',
     meta: [
       { charset: 'utf-8' },
       { name: 'yandex-verification', content: '1d1a47431cdb06c1' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'og:image', content: '/img/logo-short.jpg' }
+      { name: 'og:image', content: '/img/logo-short.jpg' },
+      { name: 'og:site_name', content: 'Автосервис Auto-Truckcom в Королеве' },
+      { name: 'og:locale', content: 'ru_RU' }
     ],
     link: [{ rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }]
   },

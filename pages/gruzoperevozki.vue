@@ -57,6 +57,34 @@
     </section>
     <section id="page">
       <div class="container">
+        <div class="breadcrumbs">
+          <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li
+              v-for="(item, ind) of breadcrumbs"
+              :key="ind"
+              itemprop="itemListElement"
+              itemscope
+              itemtype="http://schema.org/ListItem"
+            >
+              <template v-if="item.slug!=null">
+                <nuxt-link
+                  :to="item.slug"
+                  itemscope
+                  itemtype="http://schema.org/Thing"
+                  itemprop="item"
+                  :title="item.name"
+                >
+                  <span itemprop="name" :itemid="item.slug">{{item.name}}</span>
+                </nuxt-link>
+                <meta itemprop="position" :content="++ind" />
+              </template>
+              <template v-else>
+                <span itemprop="name">{{item.name}}</span>
+                <meta itemprop="position" :content="++ind" />
+              </template>
+            </li>
+          </ol>
+        </div>
         <h2 class="caption">Особенности грузовых перевозок</h2>
         <div class="table">
           <p>Грузоперевозки – актуальная услуга при необходимости транспортировки массивных, тяжелых или габаритных грузов, как на дальние расстояния, так и по городу. Наша компания предлагает воспользоваться данным предложением частным или юридическим лицам.</p>
@@ -119,17 +147,41 @@ export default {
   //   shinomontaj: Shinomontaj,
   //   remonttyagachej: RemontTyagachej
   // },
+  jsonld() {
+    return {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      url: "https://auto-truckcom.ru/services/shinomontaj",
+      category: "Шиномонтаж",
+      image: "https://auto-truckcom.ru/img/shinomontaj.jpg",
+      productID: "shinomontaj",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.7",
+        reviewCount: "2"
+      },
+      description:
+        "Грузоперевозки от Auto Truckcom в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы.",
+      name: "Грузоперевозки от Auto Truckcom",
+      offers: {
+        "@type": "Offer",
+        availability: "https://schema.org/InStock",
+        price: "от 5000.00",
+        priceCurrency: "RUB"
+      }
+    };
+  },
   head() {
     var metaInfo = {};
     this.imgFon = "/img/gruzoperevozki.jpg";
-    this.title = "Грузоперевозки";
+    this.title = "Грузоперевозки от Auto Truckcom";
     metaInfo = {
-      title: "Грузоперевозки",
+      title: "Грузоперевозки от Auto Truckcom",
       meta: [
         {
           name: "description",
           content:
-            "Грузоперевозки в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
+            "Грузоперевозки от Auto Truckcom в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
         },
         {
           name: "keywords",
@@ -139,12 +191,12 @@ export default {
         {
           name: "og:title",
           content:
-            "Грузоперевозки в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
+            "Грузоперевозки от Auto Truckcom в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
         },
         {
           name: "og:description",
           content:
-            "Грузоперевозки в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
+            "Грузоперевозки от Auto Truckcom в Королеве. Быстро и аккуратно доставим ваш груз по Москве, области и всей России. Собственный автопарк. Фиксированные тарифы."
         }
       ]
     };
@@ -153,14 +205,15 @@ export default {
   mounted() {
     // console.log(this.serviceName);
   },
-  // asyncData ({ params }, callback) {
-  //     let post = posts.find(post => post.id === parseInt(params.id))
-  //     if (post) {
-  //       callback(null, { post })
-  //     } else {
-  //       callback({ statusCode: 404, message: 'Post not found' })
-  //     }
-  //   },
+  asyncData({ $axios, store, params, $moment }) {
+    let breadcrumbs = [
+      { name: "Главная", slug: "/" },
+      { name: "Грузоперевозки", slug: null }
+    ];
+    return {
+      breadcrumbs
+    };
+  },
   data() {
     return {
       imgFon: "",
@@ -230,10 +283,10 @@ export default {
 </script>
 <style scoped>
 .service {
-  width: calc(25% - 15px)!important;
+  width: calc(25% - 15px) !important;
 }
 .service p {
-  font-size: 17px!important;
+  font-size: 17px !important;
 }
 #home::before,
 .main-block::before {

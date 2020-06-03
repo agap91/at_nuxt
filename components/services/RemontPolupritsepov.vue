@@ -140,34 +140,29 @@
 </template>
 <script>
 export default {
-  head: {
-    script: [
-      {
-        hid: "script",
-        type: "application/ld+json",
-        innerHTML: `{
-"@context": "https://schema.org",
-"@type": "Product",
-"url": "https://auto-truckcom.ru/services/remont_polupritsepov",
-"category": "Ремонт полуприцепов",
-"image": "https://auto-truckcom.ru/img/remont_polupritsepov.jpg",
-"productID": "remont_polupritsepov",
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.5",
-"reviewCount": "2"
-},"description": "Ремонт полуприцепов. Ремонт каркаса, ремонт электрики,  ремонт пневмосистем, ремонт осей BPW, ремонт осей SAF, ремонт осей MB, ремонт осей ROR, ремонт осей ТОНАР",				  
-"name": "Ремонт полуприцепов",
-"offers": {
-"@type": "Offer",
-"availability": "https://schema.org/InStock",
-"price": "от 90.00",
-"priceCurrency": "RUB"
-},
-
-        }`
+  jsonld() {
+    return {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      url: "https://auto-truckcom.ru/services/remont_polupritsepov",
+      category: "Ремонт полуприцепов",
+      image: "https://auto-truckcom.ru/img/remont_polupritsepov.jpg",
+      productID: "remont_polupritsepov",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.5",
+        reviewCount: "2"
+      },
+      description:
+        "Ремонт полуприцепов в автосервисе Аuto Truckcom в Королеве. Ремонт каркаса, ремонт электрики,  ремонт пневмосистем, ремонт осей BPW, ремонт осей SAF, ремонт осей MB, ремонт осей ROR, ремонт осей ТОНАР",
+      name: "Ремонт полуприцепов в автосервисе Аuto Truckcom в Королеве",
+      offers: {
+        "@type": "Offer",
+        availability: "https://schema.org/InStock",
+        price: "от 90.00",
+        priceCurrency: "RUB"
       }
-    ]
+    };
   },
   name: "remont_polupritsepov"
 };

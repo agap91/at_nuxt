@@ -235,35 +235,31 @@
 </template>
 <script>
 export default {
-  head: {
-    script: [
-      {
-        hid: "script",
-        type: "application/ld+json",
-        innerHTML: `{
-"@context": "https://schema.org",
-"@type": "Product",
-"url": "https://auto-truckcom.ru/services/remont_tyagachej",
-"category": "Ремонт тягачей",
-"image": "https://auto-truckcom.ru/img/remont_tyagachej.jpg",
-"productID": "remont_tyagachej",
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.5",
-"reviewCount": "2"
-},"description": "Ремонт тягачей. Техобслуживание, ремонт электрики, ремонт КПП, диагностическая",				  
-"name": "Ремонт тягачей",
-"offers": {
-"@type": "Offer",
-"availability": "https://schema.org/InStock",
-"price": "от 330.00",
-"priceCurrency": "RUB"
-},
-
-        }`
+  jsonld() {
+    return {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      url: "https://auto-truckcom.ru/services/remont_tyagachej",
+      category: "Ремонт тягачей",
+      image: "https://auto-truckcom.ru/img/remont_tyagachej.jpg",
+      productID: "remont_tyagachej",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.5",
+        reviewCount: "2"
+      },
+      description:
+        "Ремонт тягачей в автосервисе Аuto Truckcom в Королеве. Техобслуживание, ремонт электрики, ремонт КПП, диагностическая",
+      name: "Ремонт тягачей в автосервисе Аuto Truckcom в Королеве",
+      offers: {
+        "@type": "Offer",
+        availability: "https://schema.org/InStock",
+        price: "от 330.00",
+        priceCurrency: "RUB"
       }
-    ]
+    };
   },
+  
   name: "remont_tyagachej"
 };
 </script>
