@@ -1,0 +1,171 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+    <channel>
+        <!-- Информация о сайте-источнике -->
+        <title>Автосервис Auto Truckcom</title>
+        <link>https://auto-truckcom.ru/</link>
+        <description>Автосервис в Королеве. Ремонт коммерческих и легковых автомобилей. Шиномонтаж всех видов автомашин. Грузоперевозки. Свой автопарк</description>
+        <language>ru</language>
+        <yandex:analytics id="61148428" type="Yandex"/>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <title>Ремонт тягачей</title>
+            <link>https://auto-truckcom.ru/services/remont_tyagachej</link>
+            <guid>https://auto-truckcom.ru/services/remont_tyagachej</guid>
+            <pubDate>Tue, 21 Apr 2020 12:23:00 +0300</pubDate>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/" text="Услуги"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/remont_tyagachej" text="Пример страницы"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <yandex:related></yandex:related>
+            <turbo:content>
+                <![CDATA[
+      Стоимость нормочаса — от
+      <span data-v-7d551060="" class="font-weight_bold">1100 рублей</span></p> <h3 data-v-7d551060="">Мы ремонтируем:</h3> <ul data-v-7d551060=""><li data-v-7d551060="">Тормозная система</li> <li data-v-7d551060="">Ремонт двигателя</li> <li data-v-7d551060="">Ремонт КПП</li> <li data-v-7d551060="">Замена сцепления</li> <li data-v-7d551060="">Ремонт редуктора</li> <li data-v-7d551060="">Ремонт ходовой</li> <li data-v-7d551060="">Ремонт пневмосистем</li> <li data-v-7d551060="">Замена турбины</li></ul> <div data-v-7d551060="" class="table"><table data-v-7d551060=""><thead data-v-7d551060=""><tr data-v-7d551060=""><th data-v-7d551060="">Наименование</th> <th data-v-7d551060="">Количество н/ч</th> <th data-v-7d551060="">Стоимость</th></tr></thead> <tbody data-v-7d551060=""><tr data-v-7d551060=""><td data-v-7d551060="">Фильтр масляный замена</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Масло слить залить откорректировать уровень</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Фильтрующий элемент SEPAR обновление</td> <td data-v-7d551060="">0,5</td> <td data-v-7d551060="">550</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Фильтр топливный замена</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Тяга рулевая продольная регулировка</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Датчик блокировки заднего моста заменить</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Смазка автомобиля по карте смазки</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Колесо демонтаж монтаж</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Накладки тормозных колодок демонтаж/монтаж/переклепать(1мост)</td> <td data-v-7d551060="">1,8</td> <td data-v-7d551060="">1980</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Накладки тормозных колодок демонтаж/монтаж/переклепать(вед мост)</td> <td data-v-7d551060="">2,5</td> <td data-v-7d551060="">2750</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Втулка стабилизатора замена</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Подшипник ступицы снятие установка передний</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Энергоаккамулятор снятие установка</td> <td data-v-7d551060="">1,3</td> <td data-v-7d551060="">1430</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Диагностическая система MAN-CATS монтаж демонтаж</td> <td data-v-7d551060="">2,7</td> <td data-v-7d551060="">2970</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Датчик ABS снятие установка</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Фильтр осушителя обновить</td> <td data-v-7d551060="">0,6</td> <td data-v-7d551060="">660</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Гбц MAN D2066 демонтаж/монтаж</td> <td data-v-7d551060="">18</td> <td data-v-7d551060="">19800</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Поршень MAN D2066 демонтаж/монтаж</td> <td data-v-7d551060="">2</td> <td data-v-7d551060="">2200</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Гильза MAN D2066 демонтаж/монтаж</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Вкладыш коренной демонтаж/монтаж MAN D2066</td> <td data-v-7d551060="">1,1</td> <td data-v-7d551060="">1210</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Вкладыш шатунный демонтаж/монтаж MAN D2066</td> <td data-v-7d551060="">0,9</td> <td data-v-7d551060="">990</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Охлаждающая жидкость сливать заполнять</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Гбц MAN D2066 ремонт 1шт</td> <td data-v-7d551060="">2,6</td> <td data-v-7d551060="">2860</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Дозирующий клапан MAN демонтаж/монтаж</td> <td data-v-7d551060="">4</td> <td data-v-7d551060="">4400</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Радиатор MAN(с кондиционером) демонтаж/монтаж</td> <td data-v-7d551060="">9</td> <td data-v-7d551060="">9900</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Рессора задняя левая снятие установка</td> <td data-v-7d551060="">3,5</td> <td data-v-7d551060="">3850</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Рессора задняя переборка(на снятой рессоре)</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">КПП снятие/установка</td> <td data-v-7d551060="">8</td> <td data-v-7d551060="">8800</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Сцепление калибровка MANCATS</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Сцепление снятие/установка</td> <td data-v-7d551060="">1,9</td> <td data-v-7d551060="">2090</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Маховик MAN заменить</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Вилка сцепления ремонт MAN</td> <td data-v-7d551060="">0,8</td> <td data-v-7d551060="">880</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Программирование модуля EBS</td> <td data-v-7d551060="">16,5</td> <td data-v-7d551060="">18150</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Диск тормозной снятие установка (при снятом колесе)</td> <td data-v-7d551060="">2,3</td> <td data-v-7d551060="">2530</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Колодки рулевая ось снятие установка</td> <td data-v-7d551060="">1,8</td> <td data-v-7d551060="">1980</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Суппорт ремонт</td> <td data-v-7d551060="">4</td> <td data-v-7d551060="">4400</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Колодки ведущая ось снятие установка</td> <td data-v-7d551060="">2</td> <td data-v-7d551060="">2200</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Акт замены масла(ТО) без клапанов</td> <td data-v-7d551060="">4,5</td> <td data-v-7d551060="">4950</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Регулировка клапанов</td> <td data-v-7d551060="">3,7</td> <td data-v-7d551060="">4070</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">ВСЕ ЦЕНЫ УКАЗАНЫ БЕЗ НДС!!!!</td> <td data-v-7d551060=""></td> <td data-v-7d551060="">1100</td></tr></tbody></table></div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <title>Ремонт тягачей в автосервисе Auto Truckcom в Королеве</title>
+            <link>https://auto-truckcom.ru/services/remont_tyagachej</link>
+            <guid>https://auto-truckcom.ru/services/remont_tyagachej</guid>
+            <pubDate>Tue, 21 Apr 2020 12:23:00 +0300</pubDate>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/" text="Услуги"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/remont_tyagachej" text="Ремонт тягачей"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <image><url>https://auto-truckcom.ru/img/remont_tyagachej.jpg</url></image>
+            <turbo:content>
+            <figure>
+<img src="https://auto-truckcom.ru/img/remont_tyagachej.jpg"/>
+<figcaption>
+Ремонт тягачей в автосервисе Auto Truckcom в Королеве
+</figcaption>
+</figure>
+<header>
+<h1>Ремонт тягачей в автосервисе Auto Truckcom в Королеве</h1>
+</header>
+                <![CDATA[
+      Стоимость нормочаса — от
+      <span data-v-7d551060="" class="font-weight_bold">1100 рублей</span></p> <h3 data-v-7d551060="">Мы ремонтируем:</h3> <ul data-v-7d551060=""><li data-v-7d551060="">Тормозная система</li> <li data-v-7d551060="">Ремонт двигателя</li> <li data-v-7d551060="">Ремонт КПП</li> <li data-v-7d551060="">Замена сцепления</li> <li data-v-7d551060="">Ремонт редуктора</li> <li data-v-7d551060="">Ремонт ходовой</li> <li data-v-7d551060="">Ремонт пневмосистем</li> <li data-v-7d551060="">Замена турбины</li></ul> <div data-v-7d551060="" class="table"><table data-v-7d551060=""><thead data-v-7d551060=""><tr data-v-7d551060=""><th data-v-7d551060="">Наименование</th> <th data-v-7d551060="">Количество н/ч</th> <th data-v-7d551060="">Стоимость</th></tr></thead> <tbody data-v-7d551060=""><tr data-v-7d551060=""><td data-v-7d551060="">Фильтр масляный замена</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Масло слить залить откорректировать уровень</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Фильтрующий элемент SEPAR обновление</td> <td data-v-7d551060="">0,5</td> <td data-v-7d551060="">550</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Фильтр топливный замена</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Тяга рулевая продольная регулировка</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Датчик блокировки заднего моста заменить</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Смазка автомобиля по карте смазки</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Колесо демонтаж монтаж</td> <td data-v-7d551060="">0,3</td> <td data-v-7d551060="">330</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Накладки тормозных колодок демонтаж/монтаж/переклепать(1мост)</td> <td data-v-7d551060="">1,8</td> <td data-v-7d551060="">1980</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Накладки тормозных колодок демонтаж/монтаж/переклепать(вед мост)</td> <td data-v-7d551060="">2,5</td> <td data-v-7d551060="">2750</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Втулка стабилизатора замена</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Подшипник ступицы снятие установка передний</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Энергоаккамулятор снятие установка</td> <td data-v-7d551060="">1,3</td> <td data-v-7d551060="">1430</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Диагностическая система MAN-CATS монтаж демонтаж</td> <td data-v-7d551060="">2,7</td> <td data-v-7d551060="">2970</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Датчик ABS снятие установка</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Фильтр осушителя обновить</td> <td data-v-7d551060="">0,6</td> <td data-v-7d551060="">660</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Гбц MAN D2066 демонтаж/монтаж</td> <td data-v-7d551060="">18</td> <td data-v-7d551060="">19800</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Поршень MAN D2066 демонтаж/монтаж</td> <td data-v-7d551060="">2</td> <td data-v-7d551060="">2200</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Гильза MAN D2066 демонтаж/монтаж</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Вкладыш коренной демонтаж/монтаж MAN D2066</td> <td data-v-7d551060="">1,1</td> <td data-v-7d551060="">1210</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Вкладыш шатунный демонтаж/монтаж MAN D2066</td> <td data-v-7d551060="">0,9</td> <td data-v-7d551060="">990</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Охлаждающая жидкость сливать заполнять</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Гбц MAN D2066 ремонт 1шт</td> <td data-v-7d551060="">2,6</td> <td data-v-7d551060="">2860</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Дозирующий клапан MAN демонтаж/монтаж</td> <td data-v-7d551060="">4</td> <td data-v-7d551060="">4400</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Радиатор MAN(с кондиционером) демонтаж/монтаж</td> <td data-v-7d551060="">9</td> <td data-v-7d551060="">9900</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Рессора задняя левая снятие установка</td> <td data-v-7d551060="">3,5</td> <td data-v-7d551060="">3850</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Рессора задняя переборка(на снятой рессоре)</td> <td data-v-7d551060="">1,5</td> <td data-v-7d551060="">1650</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">КПП снятие/установка</td> <td data-v-7d551060="">8</td> <td data-v-7d551060="">8800</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Сцепление калибровка MANCATS</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Сцепление снятие/установка</td> <td data-v-7d551060="">1,9</td> <td data-v-7d551060="">2090</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Маховик MAN заменить</td> <td data-v-7d551060="">1</td> <td data-v-7d551060="">1100</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Вилка сцепления ремонт MAN</td> <td data-v-7d551060="">0,8</td> <td data-v-7d551060="">880</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Программирование модуля EBS</td> <td data-v-7d551060="">16,5</td> <td data-v-7d551060="">18150</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Диск тормозной снятие установка (при снятом колесе)</td> <td data-v-7d551060="">2,3</td> <td data-v-7d551060="">2530</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Колодки рулевая ось снятие установка</td> <td data-v-7d551060="">1,8</td> <td data-v-7d551060="">1980</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Суппорт ремонт</td> <td data-v-7d551060="">4</td> <td data-v-7d551060="">4400</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Колодки ведущая ось снятие установка</td> <td data-v-7d551060="">2</td> <td data-v-7d551060="">2200</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Акт замены масла(ТО) без клапанов</td> <td data-v-7d551060="">4,5</td> <td data-v-7d551060="">4950</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">Регулировка клапанов</td> <td data-v-7d551060="">3,7</td> <td data-v-7d551060="">4070</td></tr> <tr data-v-7d551060=""><td data-v-7d551060="">ВСЕ ЦЕНЫ УКАЗАНЫ БЕЗ НДС!!!!</td> <td data-v-7d551060=""></td> <td data-v-7d551060="">1100</td></tr></tbody></table></div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <title>Ремонт полуприцепов в автосервисе Auto Truckcom в Королеве</title>
+            <link>https://auto-truckcom.ru/services/remont_polupritsepov</link>
+            <guid>https://auto-truckcom.ru/services/remont_polupritsepov</guid>
+            <pubDate>Wed, 03 Jun 2020 22:00:02 +0300</pubDate>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/" text="Услуги"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/remont_polupritsepov" text="Ремонт полуприцепов"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <image><url>https://auto-truckcom.ru/img/remont_polupritsepov.jpg</url></image>
+            <turbo:content>
+            <figure>
+<img src="https://auto-truckcom.ru/img/remont_polupritsepov.jpg"/>
+<figcaption>
+Ремонт полуприцепов в автосервисе Auto Truckcom в Королеве
+</figcaption>
+</figure>
+<header>
+<h1>Ремонт полуприцепов в автосервисе Auto Truckcom в Королеве</h1>
+</header>
+                <![CDATA[
+      <h2 data-v-21160d58="" id="prejskurant-tsen" class="caption">Прейскурант цен на ремонт полуприцепов</h2>
+      Стоимость нормочаса — от
+      <span data-v-21160d58="" class="font-weight_bold">900 рублей</span></p> <h3 data-v-21160d58="">Мы ремонтируем:</h3> <ul data-v-21160d58=""><li data-v-21160d58="">Ремонт каркаса</li> <li data-v-21160d58="">Ремонт электрики</li> <li data-v-21160d58="">Ремонт пневмосистем</li> <li data-v-21160d58="">Ремонт осей BPW</li> <li data-v-21160d58="">Ремонт осей SAF</li> <li data-v-21160d58="">Ремонт осей MB</li> <li data-v-21160d58="">Ремонт осей ROR</li> <li data-v-21160d58="">Ремонт осей ТОНАР</li></ul> <div data-v-21160d58="" class="table"><table data-v-21160d58=""><thead data-v-21160d58=""><tr data-v-21160d58=""><th data-v-21160d58="">Наименование</th> <th data-v-21160d58="">Количество н/ч</th> <th data-v-21160d58="">Стоимость</th></tr></thead> <tbody data-v-21160d58=""><tr data-v-21160d58=""><td data-v-21160d58="">Диагностика пневмосистемы</td> <td data-v-21160d58="">1,5</td> <td data-v-21160d58="">1350</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Энергоаккамулятор снятие установка</td> <td data-v-21160d58="">1,5</td> <td data-v-21160d58="">1350</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">пневморессора замена</td> <td data-v-21160d58="">1,2</td> <td data-v-21160d58="">1080</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Модуль TEBS демонтаж монтаж</td> <td data-v-21160d58="">2,8</td> <td data-v-21160d58="">2520</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Модуль TEBS программирование</td> <td data-v-21160d58="">9,8</td> <td data-v-21160d58="">8820</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Барабан тормозной снятие установка</td> <td data-v-21160d58="">1,8</td> <td data-v-21160d58="">1620</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Датчик ABS снятие установка</td> <td data-v-21160d58="">0,3</td> <td data-v-21160d58="">270</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Датчик ABS регулировка зазора</td> <td data-v-21160d58="">0,1</td> <td data-v-21160d58="">90</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Устранение утечки воздуха</td> <td data-v-21160d58="">1</td> <td data-v-21160d58="">900</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">Кольцо ABS чистка (при снятой ступице)</td> <td data-v-21160d58="">0,5</td> <td data-v-21160d58="">450</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">накладки тормозные снять/переклепать/поставить(1 ось)</td> <td data-v-21160d58="">4</td> <td data-v-21160d58="">3600</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">вал тормозной демонтаж/монтаж</td> <td data-v-21160d58="">1</td> <td data-v-21160d58="">900</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">вал тормозной замена рем.комплекта</td> <td data-v-21160d58="">2,5</td> <td data-v-21160d58="">2250</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">подшипник ступицы заменить</td> <td data-v-21160d58="">2</td> <td data-v-21160d58="">1800</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">стремянка снять поставить</td> <td data-v-21160d58="">2</td> <td data-v-21160d58="">1800</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">сайлентблок INTRA заменить</td> <td data-v-21160d58="">3,5</td> <td data-v-21160d58="">3150</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">сайлентблок BPW заменить</td> <td data-v-21160d58="">2,8</td> <td data-v-21160d58="">2520</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">амортизатор заменить</td> <td data-v-21160d58="">1,4</td> <td data-v-21160d58="">1260</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">смазка п/п по карте смазки</td> <td data-v-21160d58="">1,6</td> <td data-v-21160d58="">1440</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">рессора заменить</td> <td data-v-21160d58="">4</td> <td data-v-21160d58="">3600</td></tr> <tr data-v-21160d58=""><td data-v-21160d58="">ВСЕ ЦЕНЫ БЕЗ НДС!!!</td> <td data-v-21160d58=""></td> <td data-v-21160d58=""></td></tr></tbody></table></div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <title>Диагностика коммерческих и легковых автомобилей в автосервисе Auto Truckcom в Королеве</title>
+            <link>https://auto-truckcom.ru/services/diagnostika</link>
+            <guid>https://auto-truckcom.ru/services/diagnostika</guid>
+            <pubDate>Tue, 02 Jun 2020 07:00:12 +0300</pubDate>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/" text="Услуги"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/diagnostika" text="Диагностика коммерческих и легковых автомобилей"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <image><url>https://auto-truckcom.ru/img/diagnostika.jpg</url></image>
+            <turbo:content>
+            <figure>
+<img src="https://auto-truckcom.ru/img/diagnostika.jpg"/>
+<figcaption>
+Диагностика коммерческих и легковых автомобилей в автосервисе Auto Truckcom в Королеве
+</figcaption>
+</figure>
+<header>
+<h1>Диагностика коммерческих и легковых автомобилей в автосервисе Auto Truckcom в Королеве</h1>
+</header>
+                <![CDATA[
+    <h2 data-v-4b7975e8="" id="prejskurant-tsen" class="caption">Прейскурант цен на диагностику коммерческих и легковых автомобилей</h2>
+      Точная диагностика — это
+      <span data-v-4b7975e8="" class="font-weight_bold">90%</span> успешного ремонта
+    </p> <h3 data-v-4b7975e8="">Мы ремонтируем:</h3> <ul data-v-4b7975e8=""><li data-v-4b7975e8="">Компьютерная диагностика</li> <li data-v-4b7975e8="">Диагностика полуприцепа</li> <li data-v-4b7975e8="">Диагностика ходовой</li> <li data-v-4b7975e8="">Диагностика электросистем</li> <li data-v-4b7975e8="">Диагностика пневмосистем</li> <li data-v-4b7975e8="">Диагностика тормозной системы</li> <li data-v-4b7975e8="">Диагностика двигателя</li> <li data-v-4b7975e8="">Диагностика КПП</li></ul> <div data-v-4b7975e8="" class="items"><div data-v-4b7975e8="" class="item"><h3 data-v-4b7975e8="">Диагностика MAN</h3> <ul data-v-4b7975e8=""><li data-v-4b7975e8="">TGA</li> <li data-v-4b7975e8="">TGS</li> <li data-v-4b7975e8="">TGX</li></ul></div> <div data-v-4b7975e8="" class="item"><h3 data-v-4b7975e8="">Диагностика Scania</h3> <ul data-v-4b7975e8=""><li data-v-4b7975e8="">P-Series</li> <li data-v-4b7975e8="">R-Series</li> <li data-v-4b7975e8="">G-Series</li></ul></div> <div data-v-4b7975e8="" class="item"><h3 data-v-4b7975e8="">Диагностика Mercedes</h3> <ul data-v-4b7975e8=""><li data-v-4b7975e8="">Axor</li> <li data-v-4b7975e8="">Actros</li></ul></div></div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <title>Грузоперевозки от Auto Truckcom в Королеве</title>
+            <link>https://auto-truckcom.ru/services/diagnostika</link>
+            <guid>https://auto-truckcom.ru/services/diagnostika</guid>
+            <pubDate>Tue, 02 Jun 2020 07:00:12 +0300</pubDate>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/" text="Услуги"/>
+                        <breadcrumb url="https://auto-truckcom.ru/services/diagnostika" text="Грузоперевозки"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <image><url>https://auto-truckcom.ru/img/gruzoperevozki.jpg</url></image>
+            <turbo:content>
+            <figure>
+<img src="https://auto-truckcom.ru/img/gruzoperevozki.jpg"/>
+<figcaption>
+Грузоперевозки от Auto Truckcom в Королеве
+</figcaption>
+</figure>
+<header>
+<h1>Грузоперевозки от Auto Truckcom в Королеве</h1>
+</header>
+                <![CDATA[
+    <h2 data-v-9a1c817e="" class="caption">Особенности грузовых перевозок</h2>
+    <div data-v-9a1c817e="" class="table"><p data-v-9a1c817e="">Грузоперевозки – актуальная услуга при необходимости транспортировки массивных, тяжелых или габаритных грузов, как на дальние расстояния, так и по городу. Наша компания предлагает воспользоваться данным предложением частным или юридическим лицам.</p> <p data-v-9a1c817e="">Предлагаем качественную технику, высокий уровень профессионализма сотрудников и конкурентные цены. В наличии разные автомобили, в том числе с прицепами, грузоподъемностью до 20 т.</p></div>
+    <h2 data-v-9a1c817e="" class="caption">Особенности услуги</h2>
+    <div data-v-9a1c817e="" class="table"><p data-v-9a1c817e="">Основная часть автопарка нашей компании – фуры. Мы регулярно отправляем грузовики разной грузоподъемности по городу, области и в регионы. При этом учитываются индивидуальные требования заказчика.</p> <p data-v-9a1c817e="">В наличии нашей компании есть тентованные ТС и еврофуры с открытым бортом. Благодаря разным особенностям модификации транспортных средств мы предлагаем широкий перечень возможностей клиентам и перевозим:</p> <ul data-v-9a1c817e=""><li data-v-9a1c817e="">стройматериалы, включая монтажные конструкции;</li> <li data-v-9a1c817e="">оборудование для производственных компаний;</li> <li data-v-9a1c817e="">автомобильные детали;</li> <li data-v-9a1c817e="">товары широкого потребления.</li></ul></div>
+    <h2 data-v-9a1c817e="" class="caption">Наш автопарк</h2>
+    <div data-v-9a1c817e="" class="table"><div data-v-9a1c817e="" class="dostavka"><div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_furi.jpg&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки фурами</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_1t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 1 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_1_5_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 1,5 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_3_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 3 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_5_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 5 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_10_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 10 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_20_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 20 тонны</h3></div></div></div>
+                ]]>
+            </turbo:content>
+        </item>
+    </channel>
+</rss>
+

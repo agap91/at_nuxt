@@ -41,7 +41,8 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'og:image', content: '/img/logo-short.jpg' },
       { name: 'og:site_name', content: 'Автосервис Auto-Truckcom в Королеве' },
-      { name: 'og:locale', content: 'ru_RU' }
+      { name: 'og:locale', content: 'ru_RU' },
+      { name: "og:type", content: "website" },
     ],
     link: [{ rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }]
   },
