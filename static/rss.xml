@@ -102,7 +102,7 @@
             <title>Диагностика коммерческих и легковых автомобилей в автосервисе Auto Truckcom в Королеве</title>
             <link>https://auto-truckcom.ru/services/diagnostika</link>
             <guid>https://auto-truckcom.ru/services/diagnostika</guid>
-            <pubDate>Tue, 02 Jun 2020 07:00:12 +0300</pubDate>
+            <pubDate>Tue, 02 Jun 2020 12:00:12 +0300</pubDate>
             <metrics>
                 <yandex schema_identifier="Идентификатор">
                     <breadcrumblist>
@@ -133,15 +133,14 @@
         </item>
         <item turbo="true">
             <title>Грузоперевозки от Auto Truckcom в Королеве</title>
-            <link>https://auto-truckcom.ru/services/diagnostika</link>
-            <guid>https://auto-truckcom.ru/services/diagnostika</guid>
+            <link>https://auto-truckcom.ru/gruzoperevozki</link>
+            <guid>https://auto-truckcom.ru/gruzoperevozki</guid>
             <pubDate>Tue, 02 Jun 2020 07:00:12 +0300</pubDate>
             <metrics>
                 <yandex schema_identifier="Идентификатор">
                     <breadcrumblist>
                         <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
-                        <breadcrumb url="https://auto-truckcom.ru/services/" text="Услуги"/>
-                        <breadcrumb url="https://auto-truckcom.ru/services/diagnostika" text="Грузоперевозки"/>
+                        <breadcrumb url="https://auto-truckcom.ru/gruzoperevozki" text="Грузоперевозки"/>
                     </breadcrumblist>
                 </yandex>
             </metrics>
@@ -163,6 +162,32 @@
     <div data-v-9a1c817e="" class="table"><p data-v-9a1c817e="">Основная часть автопарка нашей компании – фуры. Мы регулярно отправляем грузовики разной грузоподъемности по городу, области и в регионы. При этом учитываются индивидуальные требования заказчика.</p> <p data-v-9a1c817e="">В наличии нашей компании есть тентованные ТС и еврофуры с открытым бортом. Благодаря разным особенностям модификации транспортных средств мы предлагаем широкий перечень возможностей клиентам и перевозим:</p> <ul data-v-9a1c817e=""><li data-v-9a1c817e="">стройматериалы, включая монтажные конструкции;</li> <li data-v-9a1c817e="">оборудование для производственных компаний;</li> <li data-v-9a1c817e="">автомобильные детали;</li> <li data-v-9a1c817e="">товары широкого потребления.</li></ul></div>
     <h2 data-v-9a1c817e="" class="caption">Наш автопарк</h2>
     <div data-v-9a1c817e="" class="table"><div data-v-9a1c817e="" class="dostavka"><div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_furi.jpg&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки фурами</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_1t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 1 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_1_5_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 1,5 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_3_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 3 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_5_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 5 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_10_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 10 тонны</h3></div> <div data-v-9a1c817e="" class="item"><div data-v-9a1c817e="" class="img" style="background-image: url(&quot;https://auto-truckcom.ru/img/dostavka_do_20_t.png&quot;);"></div> <h3 data-v-9a1c817e="">Грузоперевозки до 20 тонны</h3></div></div></div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <title>Контакты автосервиса Auto Truckcom</title>
+            <link>https://auto-truckcom.ru/contacts</link>
+            <guid>https://auto-truckcom.ru/contacts</guid>
+            <pubDate>Tue, 02 Jun 2020 05:00:12 +0300</pubDate>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="https://auto-truckcom.ru/" text="Главная"/>
+                        <breadcrumb url="https://auto-truckcom.ru/contacts" text="Контакты"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            
+            <turbo:content>
+<header>
+<h1>Контакты автосервиса Auto Truckcom</h1>
+</header>
+                <![CDATA[
+    <div data-v-551e29cd="" itemscope="itemscope" itemtype="http://schema.org/Organization" class="contact-block"><meta data-v-551e29cd="" itemprop="name" content="Автосервис Auto-Truckcom в Королеве"> <ul data-v-551e29cd=""><li data-v-551e29cd="">График работы:</li> <li data-v-551e29cd="">9:00 – 21:00, без выходных</li> <li data-v-551e29cd="">Контактные телефоны:</li> <li data-v-551e29cd=""><a data-v-551e29cd="" href="tel:+79299106860" title="телефон для связи с автосервисом Auto Truckcom"><span data-v-551e29cd="" itemprop="telephone">8 (929) 910-68-60</span></a> <meta data-v-551e29cd="" itemprop="telephone" content="+7 929 910 68 60"> <button data-v-551e29cd="" class="call-btn">Заказать звонок</button></li> <li data-v-551e29cd="">Почта:</li> <li data-v-551e29cd=""><a data-v-551e29cd="" href="mailto:info@auto-truckcom.ru" title="почта для связи с автосервисом Auto Truckcom"><span data-v-551e29cd="" itemprop="email">info@auto-truckcom.ru</span></a> <meta data-v-551e29cd="" itemprop="email" content="info@auto-truckcom.ru"></li> <li data-v-551e29cd="">Наш адрес:</li> <li data-v-551e29cd="" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+        МО,
+        <span data-v-551e29cd="" itemprop="addressLocality">г.Королев</span>,
+        <span data-v-551e29cd="" itemprop="streetAddress">ул. Орджоникидзе, 3В</span> <meta data-v-551e29cd="" itemprop="addressLocality" content="Королев"> <meta data-v-551e29cd="" itemprop="streetAddress" content="ул. Орджоникидзе, 3В"></li></ul></div>
                 ]]>
             </turbo:content>
         </item>
