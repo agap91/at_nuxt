@@ -52,7 +52,7 @@ export default {
         {
           hid: "stripe",
           src:
-            "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac840735f9042ad2df77e448e7893f68181682cac1f8ceba101f15e3255f4f630&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true&amp;id=my-map",
+            "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac840735f9042ad2df77e448e7893f68181682cac1f8ceba101f15e3255f4f630&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false&amp;id=my-map",
           defer: true,
           async: true
         }

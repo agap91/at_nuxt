@@ -29,7 +29,9 @@
     <div class="menu">
       <div class="container">
         <div class="logo">
-          <img src="/img/logo-m.jpg" />
+          <nuxt-link to="/" title="Автосервис Auto Truckcom - ремонт легкового и коммерческого транспорта">
+            <img src="/img/logo-m.jpg" alt="Автосервис Auto Truckcom - ремонт легкового и коммерческого транспорта" />
+          </nuxt-link>
           <svg
             v-if="mobyle && !tablet"
             xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +84,7 @@ export default {
       tablet: false,
       popup: false,
       menu: [
-        { name: "Главная", url: "#home", type: "scroll" },
+        // { name: "Главная", url: "#home", type: "scroll" },
         { name: "Услуги", url: "#work", type: "scroll" },
         { name: "Цены", url: "/price", type: "no-scroll" },
         { name: "Грузоперевозки", url: "/gruzoperevozki", type: "no-scroll" },
