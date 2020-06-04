@@ -265,7 +265,7 @@ export default {
           ]
         };
         this.menu = [
-          { name: "Прейскурант цен", link: "#prejskurant-tsen" },
+          { name: "Легковой шиномонтаж", link: "#prejskurant-tsen" },
           {
             name: "Комплекс работ по замене автопокрышек",
             link: "#kompleks-rabot-po-zamene-avtopokryshek"
