@@ -271,32 +271,26 @@ export default {
             link: "#kompleks-rabot-po-zamene-avtopokryshek"
           },
           {
-            name: "Комплекс по сборке 4-х колес",
-            link: "#kompleks-po-sborke-4-h-koles"
+            name: "Грузовой шиномонтаж",
+            link: "#gruzovoj-shinomontazh"
           },
-          {
-            name:
-              "Установка, мойка, проверка давления в шинах 4-х колёс без балансировки",
-            link:
-              "#ustanovka-mojka-proverka-davleniya-v-shinah-4-h-kolyos-bez-balansirovki"
-          },
-          {
-            name:
-              "Установка, мойка, проверка давления в шинах 4-х колёс с балансировкой",
-            link:
-              "#ustanovka-mojka-proverka-davleniya-v-shinah-4-h-kolyos-s-balansirovkoj"
-          },
-          {
-            name: "Прайс-лист на услуги шиномонтажа для грузовых автомобилей",
-            link:
-              "#prajs-list-na-uslugi-shinomontazha-dlya-gruzovyh-avtomobilej"
-          },
-          {
-            name: "og:url",
-            content:
-              "https://auto-truckcom.ru/services/" +
-              this.$route.params.pathMatch
-          }
+          // {
+          //   name:
+          //     "Установка, мойка, проверка давления в шинах 4-х колёс без балансировки",
+          //   link:
+          //     "#ustanovka-mojka-proverka-davleniya-v-shinah-4-h-kolyos-bez-balansirovki"
+          // },
+          // {
+          //   name:
+          //     "Установка, мойка, проверка давления в шинах 4-х колёс с балансировкой",
+          //   link:
+          //     "#ustanovka-mojka-proverka-davleniya-v-shinah-4-h-kolyos-s-balansirovkoj"
+          // },
+          // {
+          //   name: "Прайс-лист на услуги шиномонтажа для грузовых автомобилей",
+          //   link:
+          //     "#prajs-list-na-uslugi-shinomontazha-dlya-gruzovyh-avtomobilej"
+          // },
         ];
         break;
     }

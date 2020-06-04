@@ -352,81 +352,228 @@
         <li>Шиномонтажные работы микроавтобусов и подобных: по цене паркетных автомобилей</li>
       </ul>
     </div>
-    <h2 class="caption" id="kompleks-po-sborke-4-h-koles">Комплекс по сборке 4-х колес</h2>
+    <h2 class="caption" id="gruzovoj-shinomontazh">Грузовой шиномонтаж</h2>
     <div class="table">
       <table>
         <thead>
           <tr>
-            <th>Радиус колеса</th>
-            <th>Штампованные диски</th>
-            <th>Литые диски</th>
+            <th>Наименование шиномонтажных работ</th>
+            <th>Единица</th>
+            <th>до R17.5</th>
+            <th>R19.5-R22.5</th>
+            <th>R24 и выше</th>
           </tr>
         </thead>
         <tbody>
           <tr class="row">
-            <td>R13</td>
+            <td>Снятие/установка</td>
+            <td>1 колесо</td>
+            <td>200</td>
+            <td>250</td>
+            <td>500</td>
+          </tr>
+          <tr class="row">
+            <td>Снятие/установка (внутреннее колесо)</td>
+            <td>1 колесо</td>
+            <td>250</td>
+            <td>300</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Снятие/установка (запасное колесо)</td>
+            <td>1 колесо</td>
+            <td>200</td>
+            <td>250</td>
+            <td>500</td>
+          </tr>
+          <tr class="row">
+            <td>Чистка диска</td>
+            <td>1 шина</td>
+            <td>150</td>
+            <td>200</td>
+            <td>500</td>
+          </tr>
+          <tr class="row">
+            <td>Демонтаж с кольцом</td>
+            <td>1 шина</td>
+            <td>170</td>
+            <td>250</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Демонтаж/монтаж камеры</td>
+            <td>1 шина</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr class="row">
+            <td>Монтаж</td>
+            <td>1 шина</td>
+            <td>150</td>
+            <td>200</td>
+            <td>500</td>
+          </tr>
+          <tr class="row">
+            <td>Монтаж с кольцом</td>
+            <td>1 колесо</td>
+            <td>170</td>
+            <td>250</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Подкачка шины</td>
+            <td>1 шина</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+          </tr>
+          <tr class="row">
+            <td>Проверка колеса на герметичность</td>
+            <td>1 колесо</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+          </tr>
+          <tr class="row">
+            <td>Проверка камеры на герметичность</td>
+            <td>1 камера</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+          </tr>
+          <tr class="row">
+            <td>Установка вентиля</td>
+            <td>1 вентиль</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+          </tr>
+          <tr class="row">
+            <td>Установка удлинителя для внутреннего колеса</td>
+            <td>1 шт.</td>
+            <td>200</td>
+            <td>200</td>
+            <td>200</td>
+          </tr>
+          <tr class="row">
+            <td>Снятие/установка колеса на клиньях</td>
+            <td>1 колесо</td>
+            <td>400</td>
+            <td>400</td>
+            <td>400</td>
+          </tr>
+          <tr class="row">
+            <td>Ремонт шины (грибок 6-10 мм)</td>
+            <td>1 повреждение</td>
+            <td>500</td>
+            <td>500</td>
+            <td>500</td>
+          </tr>
+          <tr class="row">
+            <td>Ремонт шины (грибок 13 мм)</td>
+            <td>1 повреждение</td>
+            <td>600</td>
+            <td>600</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Ремонт шины (кордовый пластырь СТ-24-СТ-40; 122TL-125TL)</td>
+            <td>1 повреждение</td>
+            <td>600</td>
+            <td>600</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Ремонт шины (кордовый пластырь СТ-42-СТ-86; 126TL-146TL)</td>
+            <td>1 повреждение</td>
             <td>800</td>
-            <td>900</td>
+            <td>800</td>
+            <td>800</td>
           </tr>
           <tr class="row">
-            <td>R14</td>
-            <td>900</td>
-            <td>1000</td>
+            <td>Ремонт камеры</td>
+            <td>1 повреждение</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
           </tr>
           <tr class="row">
-            <td>R15</td>
-            <td>1100</td>
-            <td>1200</td>
+            <td>Герметизация бортов</td>
+            <td>1 колесо</td>
+            <td>150</td>
+            <td>200</td>
+            <td>250</td>
           </tr>
           <tr class="row">
-            <td>R16</td>
-            <td>1300</td>
-            <td>1400</td>
+            <td>Обработка резьбовых соединений и ступицы</td>
+            <td>1 колесо</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
           </tr>
           <tr class="row">
-            <td>R17</td>
-            <td>1500</td>
-            <td>1600</td>
+            <td>Балансировка литых дисков</td>
+            <td>1 колесо</td>
+            <td>500</td>
+            <td>500</td>
+            <td>500</td>
           </tr>
           <tr class="row">
-            <td>R18</td>
-            <td></td>
-            <td>1800</td>
-          </tr>
-          <tr>
-            <th colspan="2">Паркетники</th>
-            <th>Джипы от 235</th>
-            <th>от 265</th>
+            <td>Утилизация шины</td>
+            <td>1 шина</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
           </tr>
           <tr class="row">
-            <td>R16</td>
-            <td>1600</td>
-            <td>1700</td>
-            <td>1800</td>
+            <td>Утилизация диска</td>
+            <td>1 колесо</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
           </tr>
           <tr class="row">
-            <td>R17</td>
-            <td>1700</td>
-            <td>1800</td>
-            <td>1900</td>
+            <td>Протяжка гаек</td>
+            <td>1 колесо</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
           </tr>
           <tr class="row">
-            <td>R18</td>
-            <td>1800</td>
-            <td>1900</td>
-            <td>2000</td>
+            <td>Монтаж б/к шин для спецтехники</td>
+            <td>1 шина</td>
+            <td>400</td>
+            <td>400</td>
+            <td>500</td>
           </tr>
           <tr class="row">
-            <td>R19</td>
-            <td>1900</td>
-            <td>2000</td>
-            <td>2200</td>
+            <td>Демонтаж б/к шин для спецтехники</td>
+            <td>1 шина</td>
+            <td>400</td>
+            <td>400</td>
+            <td>500</td>
           </tr>
           <tr class="row">
-            <td>R20</td>
-            <td>2000</td>
-            <td>2200</td>
-            <td>2500</td>
+            <td>Монтаж камерных покрышек для спецтехники</td>
+            <td>1 шина</td>
+            <td>600</td>
+            <td>600</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Демонтаж камерных покрышек для спецтехники</td>
+            <td>1 шина</td>
+            <td>600</td>
+            <td>600</td>
+            <td>600</td>
+          </tr>
+          <tr class="row">
+            <td>Дополнительные работы</td>
+            <td>5 минут</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
           </tr>
         </tbody>
       </table>
@@ -437,159 +584,6 @@
         <li>Шиномонтажные работы микроавтобусов и подобных:по цене паркетных автомобилей</li>
       </ul>
       <p>Интернет магазин (- 10%)</p>
-    </div>
-    <h2
-      class="caption"
-      id="ustanovka-mojka-proverka-davleniya-v-shinah-4-h-kolyos-bez-balansirovki"
-    >Установка, мойка, проверка давления в шинах 4-х колёс без балансировки</h2>
-    <div class="table">
-      <table>
-        <thead>
-          <tr>
-            <th colspan="2">Легковые</th>
-            <th colspan="2">Паркетники</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="row">
-            <td>R13-14</td>
-            <td>500</td>
-            <td>R15-17 700</td>
-          </tr>
-          <tr class="row">
-            <td>R15-16</td>
-            <td>600</td>
-            <td>R18-20 800</td>
-          </tr>
-          <tr class="row">
-            <td>R17-18</td>
-            <td>700</td>
-            <td></td>
-          </tr>
-          <tr class="row">
-            <td>R19-20</td>
-            <td>800</td>
-            <td></td>
-          </tr>
-          <tr class="row">
-            <th colspan="2">Джипы от 235</th>
-            <th colspan="2">Джипы от 265</th>
-          </tr>
-          <tr class="row">
-            <td>R15-17</td>
-            <td>800</td>
-            <td>R15-17</td>
-            <td>900</td>
-          </tr>
-          <tr class="row">
-            <td>R18-20</td>
-            <td>900</td>
-            <td>R18-22</td>
-            <td>1000</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <h2
-      class="caption"
-      id="ustanovka-mojka-proverka-davleniya-v-shinah-4-h-kolyos-s-balansirovkoj"
-    >Установка, мойка, проверка давления в шинах 4-х колёс с балансировкой</h2>
-    <div class="table">
-      <table>
-        <thead>
-          <tr>
-            <th>Легковые</th>
-            <th colspan="2">Штампованные диски</th>
-            <th colspan="2">Литые диски</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="row">
-            <td>R13-14</td>
-            <td colspan="2">1000</td>
-            <td colspan="2">1100</td>
-          </tr>
-          <tr class="row">
-            <td>R15-16</td>
-            <td colspan="2">1100</td>
-            <td colspan="2">1200</td>
-          </tr>
-          <tr class="row">
-            <td>R17-18</td>
-            <td colspan="2">1200</td>
-            <td colspan="2">1300</td>
-          </tr>
-          <tr class="row">
-            <td>R19-20</td>
-            <td colspan="2"></td>
-            <td colspan="2">1500</td>
-          </tr>
-          <tr class="row">
-            <th colspan="3">Паркетники</th>
-            <th>Джипы от 235</th>
-            <th>Джипы от 265</th>
-          </tr>
-          <tr class="sub-cat">
-            <td>Радиус</td>
-            <td>Штампов. диски</td>
-            <td>Литые диски</td>
-            <td colspan="2">Литые диски</td>
-          </tr>
-          <tr class="row">
-            <td>R15</td>
-            <td>1300</td>
-            <td>1400</td>
-            <td>1500</td>
-            <td>1600</td>
-          </tr>
-          <tr class="row">
-            <td>R16</td>
-            <td>1400</td>
-            <td>1500</td>
-            <td>1600</td>
-            <td>1700</td>
-          </tr>
-          <tr class="row">
-            <td>R17</td>
-            <td>1500</td>
-            <td>1600</td>
-            <td>1700</td>
-            <td>1800</td>
-          </tr>
-          <tr class="row">
-            <td>R18</td>
-            <td></td>
-            <td>1700</td>
-            <td>1800</td>
-            <td>1900</td>
-          </tr>
-          <tr class="row">
-            <td>R19</td>
-            <td></td>
-            <td>1800</td>
-            <td>1900</td>
-            <td>2000</td>
-          </tr>
-          <tr class="row">
-            <td>R20</td>
-            <td></td>
-            <td>1900</td>
-            <td>2000</td>
-            <td>2100</td>
-          </tr>
-          <tr class="row">
-            <td>R21</td>
-            <td></td>
-            <td>2000</td>
-            <td>2100</td>
-            <td>2200</td>
-          </tr>
-        </tbody>
-      </table>
-      <ul class="font-weight_bold">
-        <li>Балансировка вездеходных шин +50% от номинала</li>
-        <li>Шиномонтажные работы микроавтобусов и подобных: по цене паркетных автомобилей</li>
-      </ul>
     </div>
   </section>
 </template>
