@@ -1,5 +1,5 @@
 <template>
-  <section id="comments">
+  <section id="comments" lazy-background="/img/bg-blue.jpg">
     <div class="container">
       <h2 class="caption">Отзывы клиентов</h2>
       <ul class="comments">

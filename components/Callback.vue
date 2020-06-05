@@ -1,12 +1,12 @@
 <template>
-  <section id="callback">
+  <section id="callback" lazy-background="/img/bg-callback.jpg">
     <div class="container">
       <div class="order-block">
         <div class="attention">
           <h3 class="bold">Внимание</h3>
           <h3>Бесплатная диагностика</h3>
         </div>
-        <div class="form">
+        <div class="form" lazy-background="/img/wrap-b.png">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="35"
@@ -103,7 +103,7 @@ export default {
 <style scoped>
 #callback {
   padding: 50px 0;
-  background: url("/img/bg-callback.jpg");
+  /* background: url("/img/bg-callback.jpg"); */
   background-position: center;
   background-size: cover;
   position: relative;

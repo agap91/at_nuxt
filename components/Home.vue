@@ -1,5 +1,5 @@
 <template>
-  <section id="home">
+  <section id="home" lazy-background="'/img/main.jpg'">
     <div class="container">
       <h1>{{h1}}</h1>
       <div class="order-block">
@@ -7,7 +7,7 @@
           <h3 class="bold">Внимание</h3>
           <h3>Бесплатная диагностика</h3>
         </div>
-        <div class="form">
+        <div class="form" lazy-background="/img/wrap-b.png">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="35"

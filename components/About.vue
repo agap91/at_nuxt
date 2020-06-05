@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="about" lazy-background="/img/bg-line1.png">
     <div class="container">
       <div class="about-text">
         <h2>Auto Truckcom — Ремонт и сервисное обслуживание легкового и коммерческого транспорта</h2>

@@ -16,13 +16,13 @@ module.exports = {
     '~plugins/jsonld'
   ],
   modules: [
+    'nuxt-lazy-load',
     [
       '@nuxtjs/yandex-metrika',
-      'nuxt-lazy-load',
       {
         id: '61148428',
-        webvisor: true
-        // clickmap:true,
+        webvisor: true,
+        clickmap:true,
         // useCDN:false,
         // trackLinks:true,
         // accurateTrackBounce:true,

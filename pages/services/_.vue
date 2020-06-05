@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="main-block" :style="'background-image: url('+imgFon+')'">
+    <section class="main-block" :lazy-background="imgFon">
       <nav class="submenu" v-if="menu.length>0">
         <a v-for="m of menu" :key="m" :href="m.link" v-scroll-to="m.link" :title="m.name">{{m.name}}</a>
       </nav>
@@ -11,7 +11,7 @@
             <h3 class="bold">Запишись</h3>
             <h3>{{callbackTitle}}</h3>
           </div>
-          <div class="form">
+          <div class="form" lazy-background="/img/wrap-b.png">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="35"

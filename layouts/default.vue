@@ -174,7 +174,7 @@ body {
 .main-block {
   height: 80vh;
   position: relative;
-  background: url("/img/main.jpg");
+  /* background: url("/img/main.jpg"); */
   color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ body {
   align-items: flex-start;
 }
 #comments {
-  background: url("/img/bg-blue.jpg");
+  /* background: url("/img/bg-blue.jpg"); */
   background-size: contain;
   background-repeat: repeat;
   padding: 50px 0;
@@ -195,7 +195,7 @@ body {
   display: flex;
   padding: 50px 35px;
   align-items: flex-start;
-  background: url("/img/wrap-b.png");
+  /* background: url("/img/wrap-b.png"); */
   color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@ body {
   padding: 10px 0;
 }
 #about {
-  background: url("/img/bg-line1.jpg");
+  /* background: url("/img/bg-line1.jpg"); */
   color: #fff;
   padding: 4vw 0;
   background-size: cover;

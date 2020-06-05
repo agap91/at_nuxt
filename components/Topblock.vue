@@ -55,12 +55,12 @@
           <ul v-show="!mobyle || openMenu">
             <li v-for="m of menu" :key="m">
               <template v-if="mainPage()">
-                <nuxt-link v-if="m.type=='scroll'" :to="m.url" v-scroll-to="m.url">{{m.name}}</nuxt-link>
-                <nuxt-link v-else :to="m.url">{{m.name}}</nuxt-link>
+                <nuxt-link v-if="m.type=='scroll'" :to="m.url" v-scroll-to="m.url" @click.native="openMenu = !openMenu">{{m.name}}</nuxt-link>
+                <nuxt-link v-else :to="m.url" @click.native="openMenu = !openMenu">{{m.name}}</nuxt-link>
               </template>
               <template v-else>
-                <nuxt-link v-if="m.type=='scroll'" :to="'/'+m.url" v-scroll-to="m.url">{{m.name}}</nuxt-link>
-                <nuxt-link v-else :to="m.url">{{m.name}}</nuxt-link>
+                <nuxt-link v-if="m.type=='scroll'" :to="'/'+m.url" v-scroll-to="m.url" @click.native="openMenu = !openMenu">{{m.name}}</nuxt-link>
+                <nuxt-link v-else :to="m.url" @click.native="openMenu = !openMenu">{{m.name}}</nuxt-link>
               </template>
             </li>
           </ul>
@@ -242,7 +242,7 @@ body {
 .main-block {
   height: 80vh;
   position: relative;
-  background: url("/img/main.jpg");
+  /* background: url("/img/main.jpg"); */
   color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +252,7 @@ body {
   align-items: flex-start;
 }
 #comments {
-  background: url("/img/bg-blue.jpg");
+  /* background: url("/img/bg-blue.jpg"); */
   background-size: contain;
   background-repeat: repeat;
   padding: 50px 0;
@@ -263,7 +263,7 @@ body {
   display: flex;
   padding: 50px 35px;
   align-items: flex-start;
-  background: url("/img/wrap-b.png");
+  /* background: url("/img/wrap-b.png"); */
   color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +291,7 @@ body {
   padding: 10px 0;
 }
 #about {
-  background: url("/img/bg-line1.jpg");
+  /* background: url("/img/bg-line1.jpg"); */
   color: #fff;
   padding: 4vw 0;
   background-size: cover;
@@ -353,6 +353,7 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 5px;
+    width: 100%;
   }
   .order-block {
     display: flex;

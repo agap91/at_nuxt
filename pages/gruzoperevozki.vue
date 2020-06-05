@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="main-block" :style="'background-image: url('+imgFon+')'">
+    <section class="main-block" :lazy-background="imgFon">
       <nav class="submenu" v-if="menu.length>0">
         <a v-for="m of menu" :key="m" :href="m.link" v-scroll-to="m.link" :title="m.name">{{m.name}}</a>
       </nav>
@@ -11,7 +11,7 @@
             <h3 class="bold">Закажите</h3>
             <h3>грузоперевозку</h3>
           </div>
-          <div class="form">
+          <div class="form" lazy-background="/img/wrap-b.png">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="35"
@@ -185,8 +185,7 @@ export default {
         },
         {
           name: "og:title",
-          content:
-            "Грузоперевозки от Auto Truckcom в Королеве"
+          content: "Грузоперевозки от Auto Truckcom в Королеве"
         },
         {
           name: "og:description",
@@ -196,7 +195,7 @@ export default {
         {
           name: "og:url",
           content: "https://auto-truckcom.ru/gruzoperevozki"
-        },
+        }
       ]
     };
     return metaInfo;
@@ -565,6 +564,9 @@ form button:hover {
   }
   .order-block .attention {
     padding: 20px 10px;
+  }
+  .dostavka .item{
+    width: 100%;
   }
 }
 </style>
