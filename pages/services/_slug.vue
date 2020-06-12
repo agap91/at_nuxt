@@ -1,96 +1,104 @@
 <template>
   <section>
-    <section class="main-block" :lazy-background="imgFon">
-      <nav class="submenu" v-if="menu.length>0">
-        <a v-for="m of menu" :key="m" :href="m.link" v-scroll-to="m.link" :title="m.name">{{m.name}}</a>
-      </nav>
-      <div class="container">
-        <h1>{{title}}</h1>
-        <div class="order-block">
-          <div class="attention">
-            <h3 class="bold">Запишись</h3>
-            <h3>{{callbackTitle}}</h3>
-          </div>
-          <div class="form" lazy-background="/img/wrap-b.png">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-arrow-right"
-            >
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-            <form @submit.prevent="send()">
-              <h3>Оставьте заявку</h3>
-              <span>и мы перезвоним Вам!</span>
-              <div class="form-items">
-                <input
-                  type="text"
-                  name="fio"
-                  placeholder="Ваше имя"
-                  :class="errors.name ? 'error' : ''"
-                  v-model="form.name"
-                />
-                <input
-                  type="text"
-                  placeholder="+7 (___) ___-__-__"
-                  v-model="form.phone"
-                  :class="errors.phone ? 'error' : ''"
-                  v-mask="'+7 (###) ###-##-##'"
-                />
-                <button type="submit">Заказать звонок</button>
-              </div>
-              <ul class="error" v-if="errors.length>0">
-                <li v-for="error of errors" :key="error">{{error}}</li>
-              </ul>
-            </form>
+    <no-ssr>
+      <section class="main-block" :lazy-background="imgFon">
+        <nav class="submenu" v-if="menu.length>0">
+          <a
+            v-for="m of menu"
+            :key="m"
+            :href="m.link"
+            v-scroll-to="m.link"
+            :title="m.name"
+          >{{m.name}}</a>
+        </nav>
+        <div class="container">
+          <h1>{{title}}</h1>
+          <div class="order-block">
+            <div class="attention">
+              <h3 class="bold">Запишись</h3>
+              <h3>{{callbackTitle}}</h3>
+            </div>
+            <div class="form" lazy-background="/img/wrap-b.png">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+              <form @submit.prevent="send()">
+                <h3>Оставьте заявку</h3>
+                <span>и мы перезвоним Вам!</span>
+                <div class="form-items">
+                  <input
+                    type="text"
+                    name="fio"
+                    placeholder="Ваше имя"
+                    :class="errors.name ? 'error' : ''"
+                    v-model="form.name"
+                  />
+                  <input
+                    type="text"
+                    placeholder="+7 (___) ___-__-__"
+                    v-model="form.phone"
+                    :class="errors.phone ? 'error' : ''"
+                    v-mask="'+7 (###) ###-##-##'"
+                  />
+                  <button type="submit">Заказать звонок</button>
+                </div>
+                <ul class="error" v-if="errors.length>0">
+                  <li v-for="error of errors" :key="error">{{error}}</li>
+                </ul>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="page">
-      <div class="container">
-        <div class="breadcrumbs">
-          <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li
-              v-for="(item, ind) of breadcrumbs"
-              :key="ind"
-              itemprop="itemListElement"
-              itemscope
-              itemtype="http://schema.org/ListItem"
-            >
-              <template v-if="item.slug!=null">
-                <nuxt-link
-                  :to="item.slug"
-                  itemscope
-                  itemtype="http://schema.org/Thing"
-                  itemprop="item"
-                  :title="item.name"
-                >
-                  <span itemprop="name" :itemid="item.slug">{{item.name}}</span>
-                </nuxt-link>
-                <meta itemprop="position" :content="++ind" />
-              </template>
-              <template v-else>
-                <span itemprop="name">{{item.name}}</span>
-                <meta itemprop="position" :content="++ind" />
-              </template>
-            </li>
-          </ol>
+      </section>
+      <section id="page">
+        <div class="container">
+          <div class="breadcrumbs">
+            <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li
+                v-for="(item, ind) of breadcrumbs"
+                :key="ind"
+                itemprop="itemListElement"
+                itemscope
+                itemtype="http://schema.org/ListItem"
+              >
+                <template v-if="item.slug!=null">
+                  <nuxt-link
+                    :to="item.slug"
+                    itemscope
+                    itemtype="http://schema.org/Thing"
+                    itemprop="item"
+                    :title="item.name"
+                  >
+                    <span itemprop="name" :itemid="item.slug">{{item.name}}</span>
+                  </nuxt-link>
+                  <meta itemprop="position" :content="++ind" />
+                </template>
+                <template v-else>
+                  <span itemprop="name">{{item.name}}</span>
+                  <meta itemprop="position" :content="++ind" />
+                </template>
+              </li>
+            </ol>
+          </div>
+          <component v-bind:is="$route.params.slug"></component>
+          <!-- <shinomontaj v-if="this.$route.params.slug == 'shinomontaj'"/>
+          <remonttyagachej v-else-if="this.$route.params.slug == 'remont_tyagachej'"/>-->
         </div>
-        <component v-bind:is="this.$route.params.pathMatch"></component>
-        <!-- <shinomontaj v-if="this.$route.params.pathMatch == 'shinomontaj'"/>
-        <remonttyagachej v-else-if="this.$route.params.pathMatch == 'remont_tyagachej'"/>-->
-      </div>
-    </section>
-    <component v-bind:is="'total-services'" :service="this.$route.params.pathMatch"></component>
+      </section>
+      <component v-bind:is="'total-services'" :service="$route.params.slug"></component>
+    </no-ssr>
   </section>
 </template>
 <script>
@@ -103,10 +111,10 @@ export default {
   // },
   validate({ params }) {
     if (
-      params.pathMatch == "shinomontaj" ||
-      params.pathMatch == "remont_tyagachej" ||
-      params.pathMatch == "remont_polupritsepov" ||
-      params.pathMatch == "diagnostika"
+      params.slug == "shinomontaj" ||
+      params.slug == "remont_tyagachej" ||
+      params.slug == "remont_polupritsepov" ||
+      params.slug == "diagnostika"
     ) {
       return true; //^\d+$/.test(params.id)
     } else {
@@ -114,8 +122,8 @@ export default {
     }
   },
   head() {
-    var metaInfo = {};
-    switch (this.$route.params.pathMatch) {
+    let metaInfo = {};
+    switch (this.$route.params.slug) {
       case "diagnostika":
         this.imgFon = "/img/diagnostika-auto.jpg";
         this.title = "Диагностика коммерческих и легковых автомобилей";
@@ -148,18 +156,18 @@ export default {
             {
               name: "og:url",
               content:
-                "https://auto-truckcom.ru/services/" +
-                this.$route.params.pathMatch
+                "https://auto-truckcom.ru/services/" + this.$route.params.slug
             }
           ]
         };
+
         break;
       case "remont_polupritsepov":
         this.imgFon = "/img/remont-polupritsepov.jpg";
-        this.title = "Ремонт полуприцепов";
+        this.title = "Ремонт полуприцепов в Королеве";
         this.callbackTitle = "на диагностику полуприцепов";
         metaInfo = {
-          title: "Ремонт полуприцепов",
+          title: "Ремонт полуприцепов в Королеве",
           meta: [
             {
               vmid: "description",
@@ -174,7 +182,7 @@ export default {
             {
               vmid: "og:title",
               name: "og:title",
-              content: "Ремонт полуприцепов"
+              content: "Ремонт полуприцепов в Королеве"
             },
             {
               vmid: "og:description",
@@ -184,18 +192,18 @@ export default {
             {
               name: "og:url",
               content:
-                "https://auto-truckcom.ru/services/" +
-                this.$route.params.pathMatch
+                "https://auto-truckcom.ru/services/" + this.$route.params.slug
             }
           ]
         };
+
         break;
       case "remont_tyagachej":
         this.imgFon = "/img/remont-tyagachej.jpg";
-        this.title = "Ремонт тягачей";
+        this.title = "Ремонт тягачей в Королеве";
         this.callbackTitle = "на диагностику тягача";
         metaInfo = {
-          title: "Ремонт тягачей",
+          title: "Ремонт тягачей в Королеве",
           meta: [
             {
               vmid: "description",
@@ -210,7 +218,7 @@ export default {
             {
               vmid: "og:title",
               name: "og:title",
-              content: "Ремонт тягачей"
+              content: "Ремонт тягачей в Королеве"
             },
             {
               vmid: "og:description",
@@ -220,15 +228,15 @@ export default {
             {
               name: "og:url",
               content:
-                "https://auto-truckcom.ru/services/" +
-                this.$route.params.pathMatch
+                "https://auto-truckcom.ru/services/" + this.$route.params.slug
             }
           ]
         };
+
         break;
       case "shinomontaj":
         this.imgFon = "/img/shinomontaj-auto.jpg";
-        this.title = "Шиномонтаж грузовых и легковых автомобилей";
+        this.title = "Шиномонтаж грузовых и легковых автомобилей в Королеве";
         this.callbackTitle = "на шиномонтаж прямо сейчас";
         metaInfo = {
           title: "Шиномонтаж грузовых и легковых автомобилей",
@@ -248,7 +256,7 @@ export default {
             {
               vmid: "og:title",
               name: "og:title",
-              content: "Шиномонтаж грузовых и легковых автомобилей"
+              content: "Шиномонтаж грузовых и легковых автомобилей в Королеве"
             },
             {
               vmid: "og:description",
@@ -259,8 +267,7 @@ export default {
             {
               name: "og:url",
               content:
-                "https://auto-truckcom.ru/services/" +
-                this.$route.params.pathMatch
+                "https://auto-truckcom.ru/services/" + this.$route.params.slug
             }
           ]
         };
@@ -273,7 +280,7 @@ export default {
           {
             name: "Грузовой шиномонтаж",
             link: "#gruzovoj-shinomontazh"
-          },
+          }
           // {
           //   name:
           //     "Установка, мойка, проверка давления в шинах 4-х колёс без балансировки",
@@ -292,19 +299,40 @@ export default {
           //     "#prajs-list-na-uslugi-shinomontazha-dlya-gruzovyh-avtomobilej"
           // },
         ];
+
         break;
     }
-    this.breadcrumbs.push({ name: metaInfo.title, slug: null });
+
     return metaInfo;
   },
   mounted() {
     // console.log(this.serviceName);
   },
-  asyncData() {
+  asyncData({ params }) {
     let breadcrumbs = [
       { name: "Главная", slug: "/" },
       { name: "Услуги", slug: "/#work" }
     ];
+    let title = '';
+    switch (params.slug) {
+      case "diagnostika":
+        title = "Диагностика коммерческих и легковых автомобилей";
+
+        break;
+      case "remont_polupritsepov":
+        title = "Ремонт полуприцепов в Королеве";
+
+        break;
+      case "remont_tyagachej":
+        title = "Ремонт тягачей в Королеве";
+
+        break;
+      case "shinomontaj":
+        title = "Шиномонтаж грузовых и легковых автомобилей";
+        break;
+    }
+    breadcrumbs.push({ name: title, slug: null });
+
     return {
       breadcrumbs
     };
