@@ -1,7 +1,7 @@
 <template>
   <section id="home" lazy-background="'/img/main.jpg'">
     <div class="container">
-      <h1>{{h1}}</h1>
+      <h1 v-html="h1"></h1>
       <div class="order-block">
         <div class="attention">
           <h3 class="bold">Внимание</h3>
@@ -58,7 +58,7 @@ export default {
     h1: {
       type: String,
       default:
-        "Ремонт, запчасти и техническое обслуживание легковых и грузовых автомобилей"
+        "Автосервис АвтоТракКом<br>ремонт, запчасти и техническое обслуживание легковых и грузовых автомобилей"
     }
   },
   data() {

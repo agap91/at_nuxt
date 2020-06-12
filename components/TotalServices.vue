@@ -7,14 +7,14 @@
           class="service"
           v-for="w of work"
           :key="w"
-          :title="'Услуга от Auto Truckcom - '+w.title"
+          :title="'Услуга от АвтоТракКом - '+w.title"
           v-lazy-container="{ selector: 'img' }"
           :to="`/services/${w.pageName}`"
           v-if="w.pageName!==service"
         >
           <!-- v-if="w.pageName!==props.service" -->
           <p>{{w.title}}</p>
-          <img :data-src="w.img" :alt="'Услуга от Auto Truckcom - '+w.title" />
+          <img :data-src="w.img" :alt="'Услуга от АвтоТракКом - '+w.title" />
         </nuxt-link>
       </div>
     </div>

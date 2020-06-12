@@ -29,8 +29,8 @@
     <div class="menu">
       <div class="container">
         <div class="logo">
-          <nuxt-link to="/" title="Автосервис Auto Truckcom - ремонт легкового и коммерческого транспорта">
-            <img src="/img/logo-m.jpg" alt="Автосервис Auto Truckcom - ремонт легкового и коммерческого транспорта" />
+          <nuxt-link to="/" title="Автосервис АвтоТракКом - ремонт легкового и коммерческого транспорта">
+            <img src="/img/logo-m.jpg" alt="Автосервис АвтоТракКом - ремонт легкового и коммерческого транспорта" />
           </nuxt-link>
           <svg
             v-if="mobyle && !tablet"

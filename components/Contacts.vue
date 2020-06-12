@@ -4,13 +4,13 @@
       <h2 data-v-5ae0ae06 class="caption" v-if="$route.path.indexOf('/contacts')>0">Наши контакты</h2>
     </div>
     <div class="contact-block" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Автосервис Auto-Truckcom в Королеве" />
+      <meta itemprop="name" content="Автосервис АвтоТракКом в Королеве" />
       <ul>
         <li>График работы:</li>
         <li>9:00 – 21:00, без выходных</li>
         <li>Контактные телефоны:</li>
         <li>
-          <a href="tel:+79299106860" title="телефон для связи с автосервисом Auto Truckcom">
+          <a href="tel:+79299106860" title="телефон для связи с автосервисом АвтоТракКом">
             <span itemprop="telephone">8 (929) 910-68-60</span>
           </a>
           <meta itemprop="telephone" content="+7 929 910 68 60" />
@@ -20,7 +20,7 @@
         <li>
           <a
             href="mailto:info@auto-truckcom.ru"
-            title="почта для связи с автосервисом Auto Truckcom"
+            title="почта для связи с автосервисом АвтоТракКом"
           >
             <span itemprop="email">info@auto-truckcom.ru</span>
           </a>
@@ -52,7 +52,7 @@ export default {
         {
           hid: "stripe",
           src:
-            "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac840735f9042ad2df77e448e7893f68181682cac1f8ceba101f15e3255f4f630&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false&amp;id=my-map",
+            "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac840735f9042ad2df77e448e7893f68181682cac1f8ceba101f15e3255f4f630&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true&amp;id=my-map",
           defer: true,
           async: true
         }
