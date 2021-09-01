@@ -10,8 +10,8 @@
         <li>9:00 – 21:00, без выходных</li>
         <li>Контактные телефоны:</li>
         <li>
-          <a href="tel:+79299106860" title="телефон для связи с автосервисом АвтоТракКом">
-            <span itemprop="telephone">8 (929) 910-68-60</span>
+          <a href="tel:+79851333409" title="телефон для связи с автосервисом АвтоТракКом">
+            <span itemprop="telephone">8 (985) 133-34-09</span>
           </a>
           <meta itemprop="telephone" content="+7 929 910 68 60" />
           <button class="call-btn" @click="$store.commit('popup')">Заказать звонок</button>
