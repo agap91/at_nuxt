@@ -159,7 +159,7 @@
 <h1>Контакты автосервиса АвтоТракКом</h1>
 </header>
                 <![CDATA[
-    <div data-v-551e29cd="" itemscope="itemscope" itemtype="http://schema.org/Organization" class="contact-block"><meta data-v-551e29cd="" itemprop="name" content="Автосервис АвтоТракКомв Королеве"> <ul data-v-551e29cd=""><li data-v-551e29cd="">График работы:</li> <li data-v-551e29cd="">9:00 – 21:00, без выходных</li> <li data-v-551e29cd="">Контактные телефоны:</li> <li data-v-551e29cd=""><a data-v-551e29cd="" href="tel:+79299106860" title="телефон для связи с автосервисом АвтоТракКом"><span data-v-551e29cd="" itemprop="telephone">8 (929) 910-68-60</span></a> <meta data-v-551e29cd="" itemprop="telephone" content="+7 929 910 68 60"></li> <li data-v-551e29cd="">Почта:</li> <li data-v-551e29cd=""><a data-v-551e29cd="" href="mailto:info@auto-truckcom.ru" title="почта для связи с автосервисом АвтоТракКом"><span data-v-551e29cd="" itemprop="email">info@auto-truckcom.ru</span></a> <meta data-v-551e29cd="" itemprop="email" content="info@auto-truckcom.ru"></li> <li data-v-551e29cd="">Наш адрес:</li> <li data-v-551e29cd="" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+    <div data-v-551e29cd="" itemscope="itemscope" itemtype="http://schema.org/Organization" class="contact-block"><meta data-v-551e29cd="" itemprop="name" content="Автосервис АвтоТракКомв Королеве"> <ul data-v-551e29cd=""><li data-v-551e29cd="">График работы:</li> <li data-v-551e29cd="">9:00 – 21:00, без выходных</li> <li data-v-551e29cd="">Контактные телефоны:</li> <li data-v-551e29cd=""><a data-v-551e29cd="" href="tel:+79851333409" title="телефон для связи с автосервисом АвтоТракКом"><span data-v-551e29cd="" itemprop="telephone">8 (985) 133-34-09</span></a> <meta data-v-551e29cd="" itemprop="telephone" content="+79851333409"></li> <li data-v-551e29cd="">Почта:</li> <li data-v-551e29cd=""><a data-v-551e29cd="" href="mailto:info@auto-truckcom.ru" title="почта для связи с автосервисом АвтоТракКом"><span data-v-551e29cd="" itemprop="email">info@auto-truckcom.ru</span></a> <meta data-v-551e29cd="" itemprop="email" content="info@auto-truckcom.ru"></li> <li data-v-551e29cd="">Наш адрес:</li> <li data-v-551e29cd="" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
         МО,
         <span data-v-551e29cd="" itemprop="addressLocality">г.Королев</span>,
         <span data-v-551e29cd="" itemprop="streetAddress">ул. Орджоникидзе, 3В</span> <meta data-v-551e29cd="" itemprop="addressLocality" content="Королев"> <meta data-v-551e29cd="" itemprop="streetAddress" content="ул. Орджоникидзе, 3В"></li></ul></div>
@@ -168,4 +168,3 @@
         </item>
     </channel>
 </rss>
-

@@ -13,7 +13,7 @@
           <a href="tel:+79851333409" title="телефон для связи с автосервисом АвтоТракКом">
             <span itemprop="telephone">8 (985) 133-34-09</span>
           </a>
-          <meta itemprop="telephone" content="+7 929 910 68 60" />
+          <meta itemprop="telephone" content="+79851333409" />
           <button class="call-btn" @click="$store.commit('popup')">Заказать звонок</button>
         </li>
         <li>Почта:</li>
