@@ -16,7 +16,7 @@
     "@nuxtjs/yandex-metrika": "^1.0.3",
     "axios": "^0.19.2",
     "mobile-device-detect": "^0.3.3",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-jsonld": "^1.4.9",
     "nuxt-lazy-load": "^1.2.4",
     "vue-axios": "^2.1.5",
